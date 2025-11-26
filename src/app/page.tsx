@@ -10,6 +10,7 @@ const getImage = (id: string) => PlaceHolderImages.find(img => img.id === id);
 const heroImage = getImage('hero-home');
 const aboutTeaserImage = getImage('about-teaser');
 const atAGlanceImage = getImage('team-member-3');
+const sortingImage = getImage('service-sorting');
 
 
 const services = [
@@ -23,7 +24,7 @@ const services = [
     icon: <Scaling className="h-10 w-10 text-primary" />,
     title: 'Advanced Sorting & Grading',
     description: 'Utilizing state-of-the-art technology, we sort and grade our oranges to meet the highest standards of quality and size.',
-    image: getImage('service-sorting'),
+    image: sortingImage,
   },
   {
     icon: <Citrus className="h-10 w-10 text-primary" />,
@@ -182,14 +183,18 @@ export default function Home() {
         </section>
 
         {/* Objectives Section */}
-        <section className="bg-primary/5 rounded-lg p-8 md:p-12 mb-20">
-            <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-8">
+        <section 
+          className="relative rounded-lg p-8 md:p-12 mb-20 text-white bg-cover bg-center"
+          style={{ backgroundImage: "url('https://storage.googleapis.com/stabl-media/assets/images/oranges-bg.jpg')" }}
+        >
+            <div className="absolute inset-0 bg-black/60 rounded-lg"></div>
+            <div className="relative grid grid-cols-1 md:grid-cols-3 items-center gap-8">
                 <div className="md:col-span-1 flex justify-center">
-                   <BookUser className="h-24 w-24 text-primary" />
+                   <BookUser className="h-24 w-24" />
                 </div>
                 <div className="md:col-span-2 space-y-4">
-                    <h2 className="text-3xl md:text-4xl font-bold text-primary">OBJECTIVES</h2>
-                    <p className="font-body text-lg text-foreground/80">
+                    <h2 className="text-3xl md:text-4xl font-bold">OBJECTIVES</h2>
+                    <p className="font-body text-lg">
                         Our primary objective is to create greater value for our produce by organizing farmers into effective, collaborative groups. This approach not only improves the quality of our oranges but also increases farmers’ income through better production practices, collective marketing, and value addition. We are committed to building a strong, sustainable agricultural ecosystem and invite you to join us on this journey toward growth and prosperity.
                     </p>
                 </div>
