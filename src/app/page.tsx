@@ -9,8 +9,6 @@ const getImage = (id: string) => PlaceHolderImages.find(img => img.id === id);
 
 const heroImage = getImage('hero-home');
 const aboutTeaserImage = getImage('about-teaser');
-const atAGlanceImage = getImage('team-member-3');
-const sortingImage = getImage('service-sorting');
 
 
 const services = [
@@ -89,16 +87,14 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
              <div className="relative h-96 w-full rounded-lg shadow-xl overflow-hidden">
-              {atAGlanceImage && (
                 <Image
-                  src={atAGlanceImage.imageUrl}
-                  alt={atAGlanceImage.description}
+                  src="https://images.unsplash.com/photo-1547514701-42782101795e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxvcmFuZ2VzfGVufDB8fHx8MTc2NDE4MDA3MHww&ixlib=rb-4.1.0&q=80&w=1080"
+                  alt="A pile of fresh oranges."
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
-                  data-ai-hint={atAGlanceImage.imageHint}
+                  data-ai-hint="oranges"
                 />
-              )}
             </div>
             <div className="space-y-6">
               <h3 className="text-2xl font-bold">Personalised Advisory</h3>
