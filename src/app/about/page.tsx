@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { Metadata } from 'next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -88,22 +89,22 @@ export default function AboutPage() {
           </div>
         </section>
         
+        {/* CTA */}
+        <section className="text-center mb-20">
+            <Button asChild size="lg" className="mt-8">
+                <Link href="/contact">LEARN MORE</Link>
+            </Button>
+        </section>
+
         <section className="mb-20">
             <Card className="bg-primary/5">
                 <CardHeader>
                     <CardTitle className="text-2xl text-primary">Our Core Values</CardTitle>
                 </CardHeader>
                 <CardContent>
-                    <p>At RAUT FARMER PRODUCER COMPANY, our core values are the guiding principles that define our essence. Rooted in a commitment to excellence, unity, and innovation, we relentlessly pursue quality in every aspect of our operations.</p>
+                    <p>At RAUT FARMER PRODUCER COMPANY, our core values guide everything we do. We focus on excellence, unity, and innovation to maintain high quality in all our operations. Transparency and integrity help us build trust with our stakeholders, while our commitment to community welfare, environmental care, and fair practices drives our work. With a passion for citrus excellence, we ensure every orange reflects our dedication to sustainability and quality.</p>
                 </CardContent>
             </Card>
-        </section>
-
-        {/* CTA */}
-        <section className="text-center">
-            <Button asChild size="lg" className="mt-8">
-                <Link href="/contact">LEARN MORE</Link>
-            </Button>
         </section>
 
       </main>
