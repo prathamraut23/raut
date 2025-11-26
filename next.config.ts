@@ -63,6 +63,12 @@ const nextConfig: NextConfig = {
         hostname: 'www.koppert.in',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.stockcake.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },

@@ -3,7 +3,7 @@
     {
       "id": "hero-home",
       "description": "A vibrant orange grove under a sunny sky, representing the core of the business.",
-      "imageUrl": "https://images.unsplash.com/photo-1451885140977-ed62a6b8744e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvcmFuZ2UlMjBncm92ZXxlbnwwfHx8fDE3NjQxNDIxOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1451885140977-ed62a6b8744e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvcmFuZ2UlMjBncm92ZXxlbnwwfHx8fDE3NjQxNDIxOTR8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "orange grove"
     },
     {
@@ -27,61 +27,61 @@
     {
       "id": "service-ecosystem",
       "description": "A lush agricultural landscape showing a healthy ecosystem.",
-      "imageUrl": "https://www.koppert.in/content/_processed_/0/f/csm_shutterstock_129827255_521df0bd1b.jpg",
+      "imageUrl": "https://images.stockcake.com/public/7/f/9/7f9ce610-9a2c-44b7-8eef-13a649290ed9_large/oranges-underground-growth-stockcake.jpg",
       "imageHint": "pest control"
     },
     {
       "id": "about-hero",
       "description": "A wide shot of the company's farmland or facilities.",
-      "imageUrl": "https://images.unsplash.com/photo-1703850827351-a1be4d85a095?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmYXJtbGFuZCUyMGFlcmlhbHxlbnwwfHx8fDE3NjQxNDIxOTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1703850827351-a1be4d85a095?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmYXJtbGFuZCUyMGFlcmlhbHxlbnwwfHx8fDE3NjQxNDIxOTV8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "farmland aerial"
     },
     {
       "id": "team-member-1",
       "description": "Portrait of a senior team member.",
-      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQxMDg1NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQxMDg1NjN8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "professional portrait"
     },
     {
       "id": "team-member-2",
       "description": "Portrait of a female team member.",
-      "imageUrl": "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21hbiUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3NjQwMzA0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21hbiUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3NjQwMzA0NDB8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "woman professional"
     },
     {
       "id": "team-member-3",
       "description": "Portrait of a young team member in the field.",
-      "imageUrl": "https://images.unsplash.com/photo-1666452165223-a369d541ff0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYXJtZXIlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQwNTM2NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1666452165223-a369d541ff0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYXJtZXIlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQwNTM2NTd8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "farmer portrait"
     },
     {
       "id": "service-detail-farming",
       "description": "Detailed shot of orange blossoms on a tree.",
-      "imageUrl": "https://images.unsplash.com/photo-1507598641400-ec3536ba81bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxvcmFuZ2UlMjBibG9zc29tfGVufDB8fHx8MTc2NDE0MjE5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1507598641400-ec3536ba81bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxvcmFuZ2UlMjBibG9zc29tfGVufDB8fHx8MTc2NDE0MjE5NHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "orange blossom"
     },
     {
       "id": "service-detail-sorting",
       "description": "A worker carefully inspecting oranges at a grading station.",
-      "imageUrl": "https://images.unsplash.com/photo-1748255882537-cbe88b145305?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxxdWFsaXR5JTIwY29udHJvbHxlbnwwfHx8fDE3NjQxNDIxOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1748255882537-cbe88b145305?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxxdWFsaXR5JTIwY29udHJvbHxlbnwwfHx8fDE3NjQxNDIxOTR8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "quality control"
     },
     {
       "id": "service-detail-support",
       "description": "An agronomist inspecting a leaf for pests.",
-      "imageUrl": "https://images.unsplash.com/photo-1682269144977-14be6f4adba8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjcm9wJTIwaW5zcGVjdGlvbnxlbnwwfHx8fDE3NjQxNDIxOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1682269144977-14be6f4adba8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjcm9wJTIwaW5zcGVjdGlvbnxlbnwwfHx8fDE3NjQxNDIxOTR8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "crop inspection"
     },
     {
       "id": "project-1",
       "description": "Drip irrigation system in an orange grove.",
-      "imageUrl": "https://images.unsplash.com/photo-1569817254398-908cdf243100?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmYXJtJTIwaXJyaWdhdGlvbnxlbnwwfHx8fDE3NjQwNjY1MDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1569817254398-908cdf243100?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmYXJtJTIwaXJyaWdhdGlvbnxlbnwwfHx8fDE3NjQwNjY1MDF8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "farm irrigation"
     },
     {
       "id": "project-2",
       "description": "Solar panels providing power to farm facilities.",
-      "imageUrl": "https://images.unsplash.com/photo-1509389928833-fe62aef36deb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzb2xhciUyMGZhcm18ZW58MHx8fHwxNzY0MTQyMTk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1509389928833-fe62aef36deb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzb2xhciUyMGZhcm18ZW58MHx8fHwxNzY0MTQyMTk0fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "solar farm"
     },
     {
