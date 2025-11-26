@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowRight, Citrus, Eye, Goal, HeartHandshake, Leaf, Lightbulb, Scaling, ShieldCheck } from 'lucide-react';
+import { ArrowRight, BookUser, CheckCircle, Citrus, Eye, Goal, HeartHandshake, Leaf, Lightbulb, Scaling, ShieldCheck } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -9,6 +9,8 @@ const getImage = (id: string) => PlaceHolderImages.find(img => img.id === id);
 
 const heroImage = getImage('hero-home');
 const aboutTeaserImage = getImage('about-teaser');
+const atAGlanceImage = getImage('team-member-3');
+
 
 const services = [
   {
@@ -94,6 +96,37 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Company at a Glance */}
+        <section className="py-20">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-primary">COMPANY AT A GLANCE</h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div className="relative h-96 w-full rounded-lg shadow-xl overflow-hidden">
+                {atAGlanceImage && (
+                    <Image
+                        src={atAGlanceImage.imageUrl}
+                        alt={atAGlanceImage.description}
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                        data-ai-hint={atAGlanceImage.imageHint}
+                    />
+                )}
+            </div>
+            <div className="space-y-6">
+              <h3 className="text-2xl font-bold">Personalised Advisory</h3>
+              <p className="font-body text-foreground/80">
+                Our experienced agronomists offer tailored guidance based on soil composition, water availability, crop stage, and market requirements. This personalised approach helps farmers achieve optimal yield and a balanced grade mix.
+              </p>
+              <p className="font-body text-foreground/70">
+                Our experts go beyond advice — they help build success stories in the field. From soil to market, their knowledge turns challenges into opportunities, ensuring not just better crops, but a harvest of consistency, quality, and excellence.
+              </p>
+            </div>
+          </div>
+        </section>
+
+
         {/* Services Section */}
         <section className="py-20">
           <div className="text-center mb-12">
@@ -130,23 +163,39 @@ export default function Home() {
         <section className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
             <Card className="bg-secondary/60">
                 <CardHeader className="flex-row items-center gap-4">
-                    <Eye className="h-8 w-8 text-primary" />
-                    <CardTitle className="text-2xl text-primary">Our Vision</CardTitle>
-                </CardHeader>
-                <CardContent className="text-lg font-body text-foreground/80">
-                    To be a leading global model for sustainable and community-centric agriculture, recognized for our quality, integrity, and positive impact.
-                </CardContent>
-            </Card>
-             <Card className="bg-secondary/60">
-                <CardHeader className="flex-row items-center gap-4">
                     <Goal className="h-8 w-8 text-primary" />
                     <CardTitle className="text-2xl text-primary">Our Mission</CardTitle>
                 </CardHeader>
                 <CardContent className="text-lg font-body text-foreground/80">
-                    To empower our farmers with the tools, knowledge, and market access needed to thrive, while delivering superior-quality produce to consumers worldwide.
+                    The mission of RAUT FARMER PRODUCER COMPANY is to build a strong platform for small and marginal farmers, helping them achieve a decent life with economic independence and social upliftment. We are committed to improving the livelihoods of farmers by organizing them, standardizing their processes, increasing production, and promoting sustainability. Our goal is to empower the weaker sections of society and support their overall economic and social development.
+                </CardContent>
+            </Card>
+             <Card className="bg-secondary/60">
+                <CardHeader className="flex-row items-center gap-4">
+                    <Eye className="h-8 w-8 text-primary" />
+                    <CardTitle className="text-2xl text-primary">Our Vision</CardTitle>
+                </CardHeader>
+                <CardContent className="text-lg font-body text-foreground/80">
+                    The vision of RAUT FARMER PRODUCER COMPANY is to support better growth for farmers and producers through strong economic and social development. We aim to contribute to society by focusing on the well-being of the agricultural community. Our commitment includes promoting sustainable practices, encouraging innovation, and creating opportunities for continuous progress. We envision a future of collaborative growth where all stakeholders work together toward shared prosperity and long-term sustainability.
                 </CardContent>
             </Card>
         </section>
+
+        {/* Objectives Section */}
+        <section className="bg-primary/5 rounded-lg p-8 md:p-12 mb-20">
+            <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-8">
+                <div className="md:col-span-1 flex justify-center">
+                   <BookUser className="h-24 w-24 text-primary" />
+                </div>
+                <div className="md:col-span-2 space-y-4">
+                    <h2 className="text-3xl md:text-4xl font-bold text-primary">OBJECTIVES</h2>
+                    <p className="font-body text-lg text-foreground/80">
+                        Our primary objective is to create greater value for our produce by organizing farmers into effective, collaborative groups. This approach not only improves the quality of our oranges but also increases farmers’ income through better production practices, collective marketing, and value addition. We are committed to building a strong, sustainable agricultural ecosystem and invite you to join us on this journey toward growth and prosperity.
+                    </p>
+                </div>
+            </div>
+        </section>
+
 
         {/* Core Values */}
         <section>
