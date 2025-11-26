@@ -18,19 +18,16 @@ const services = [
     icon: <Leaf className="h-10 w-10 text-primary" />,
     title: 'Sustainable Farming',
     description: 'We employ eco-friendly farming practices to cultivate the highest quality oranges, ensuring a healthy planet and a healthy you.',
-    image: getImage('service-farming'),
   },
   {
     icon: <Scaling className="h-10 w-10 text-primary" />,
     title: 'Advanced Sorting & Grading',
     description: 'Utilizing state-of-the-art technology, we sort and grade our oranges to meet the highest standards of quality and size.',
-    image: sortingImage,
   },
   {
     icon: <Citrus className="h-10 w-10 text-primary" />,
     title: 'Complete Ecosystem',
     description: 'From soil health to market access, we support our farmers at every step, creating a thriving agricultural ecosystem.',
-    image: getImage('service-ecosystem'),
   },
 ];
 
@@ -112,20 +109,8 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {services.map((service) => (
               <Card key={service.title} className="flex flex-col overflow-hidden group">
-                 <div className="relative h-48 w-full">
-                    {service.image && (
-                      <Image
-                        src={service.image.imageUrl}
-                        alt={service.image.description}
-                        fill
-                        className="object-cover transition-transform duration-300 group-hover:scale-105"
-                        sizes="(max-width: 768px) 100vw, 33vw"
-                        data-ai-hint={service.image.imageHint}
-                      />
-                    )}
-                  </div>
                 <CardHeader className="flex-row items-center gap-4">
-                  
+                  {service.icon}
                   <CardTitle className="font-headline text-2xl">{service.title}</CardTitle>
                 </CardHeader>
                 <CardContent className="font-body text-foreground/70 flex-grow">
