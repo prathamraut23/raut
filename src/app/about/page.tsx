@@ -101,13 +101,6 @@ export default function AboutPage() {
           </div>
         </section>
         
-        {/* CTA */}
-        <section className="text-center mb-20">
-            <Button asChild size="lg" className="mt-8">
-                <Link href="/contact">LEARN MORE</Link>
-            </Button>
-        </section>
-
         <section className="mb-20">
             <Card className="bg-primary/5">
                 <CardHeader>
@@ -117,6 +110,13 @@ export default function AboutPage() {
                     <p>At RAUT FARMER PRODUCER COMPANY, our core values guide everything we do. We focus on excellence, unity, and innovation to maintain high quality in all our operations. Transparency and integrity help us build trust with our stakeholders, while our commitment to community welfare, environmental care, and fair practices drives our work. With a passion for citrus excellence, we ensure every orange reflects our dedication to sustainability and quality.</p>
                 </CardContent>
             </Card>
+        </section>
+
+        {/* CTA */}
+        <section className="text-center mb-20">
+            <Button asChild size="lg" className="mt-8">
+                <Link href="/contact">LEARN MORE</Link>
+            </Button>
         </section>
 
       </main>
