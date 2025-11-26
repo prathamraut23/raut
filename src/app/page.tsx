@@ -92,7 +92,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
              <div className="relative h-96 w-full rounded-lg shadow-xl overflow-hidden">
                 <Image
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA-7pZsO6wbrby6pYIg8job1YkyigNS8g8_A&s"
+                  src="https://kj1bcdn.b-cdn.net/media/64107/wp2202603.jpg"
                   alt="A pile of fresh oranges with leaves."
                   fill
                   className="object-cover"
