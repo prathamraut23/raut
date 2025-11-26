@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight, BookUser, CheckCircle, Citrus, Eye, Goal, HeartHandshake, Leaf, Lightbulb, Scaling, ShieldCheck } from 'lucide-react';
@@ -91,7 +92,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
              <div className="relative h-96 w-full rounded-lg shadow-xl overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1547514701-42782101795e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxvcmFuZ2V8ZW58MHx8fHwxNzY0MTgwMDcwfDA&ixlib=rb-4.1.0&q=80&w=1080"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA-7pZsO6wbrby6pYIg8job1YkyigNS8g8_A&s"
                   alt="A pile of fresh oranges with leaves."
                   fill
                   className="object-cover"
