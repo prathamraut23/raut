@@ -26,14 +26,14 @@
     },
     {
       "id": "service-ecosystem",
-      "description": "An orange tree plantation.",
-      "imageUrl": "https://media.istockphoto.com/id/1251703149/photo/orange-tree-plantation.jpg?s=1024x1024&w=is&k=20&c=KsCxTZzsB2iIRDC3i2v5jZfzDRwIUNVetwdG2188UUs=",
+      "description": "A beautiful orange plantation, showcasing a complete agricultural ecosystem.",
+      "imageUrl": "https://images.unsplash.com/photo-1549888834-3ec639e2e673?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxvcmFuZ2UlMjBwbGFudGF0aW9ufGVufDB8fHx8MTc2NTM4MTU3OHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "orange plantation"
     },
     {
       "id": "about-hero",
       "description": "A wide shot of the company's farmland or facilities.",
-      "imageUrl": "https://images.unsplash.com/photo-1703850827351-a1be4d85a095?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmYXJtbGFuZCUyMGFlcmlhbHxlbnwwfHx8fDE3NjQxNDIxOTV8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1703850827351-a1be4d85a095?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmYXJtbGFuZCUyMGFlcmlhbHxlbnwwfHx8fDE3NjQxNDIxOTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "farmland aerial"
     },
     {
