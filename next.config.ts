@@ -69,6 +69,12 @@ const nextConfig: NextConfig = {
         hostname: 'images.stockcake.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'media.istockphoto.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
@@ -77,4 +83,6 @@ const nextConfig: NextConfig = {
 export default nextConfig;
 
     
+    
+
     
