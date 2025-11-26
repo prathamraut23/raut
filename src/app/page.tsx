@@ -88,12 +88,12 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
              <div className="relative h-96 w-full rounded-lg shadow-xl overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1547514701-42782101795e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxvcmFuZ2VzfGVufDB8fHx8MTc2NDE4MDA3MHww&ixlib=rb-4.1.0&q=80&w=1080"
-                  alt="A pile of fresh oranges."
+                  src="https://images.unsplash.com/photo-1557800636-894a64c1696f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxvcmFuZ2VzJTIwZ3JvdmV8ZW58MHx8fHwxNzY0MTgwMDcwfDA&ixlib=rb-4.1.0&q=80&w=1080"
+                  alt="A pile of fresh oranges with leaves."
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
-                  data-ai-hint="oranges"
+                  data-ai-hint="oranges leaves"
                 />
             </div>
             <div className="space-y-6">
