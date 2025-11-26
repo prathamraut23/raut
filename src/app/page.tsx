@@ -8,7 +8,12 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 const getImage = (id: string) => PlaceHolderImages.find(img => img.id === id);
 
 const heroImage = getImage('hero-home');
-const aboutTeaserImage = getImage('about-teaser');
+const aboutTeaserImage = {
+    "id": "about-teaser",
+    "description": "Oranges on a tree branch.",
+    "imageUrl": "https://storage.googleapis.com/stabl-media/assets/images/oranges.png",
+    "imageHint": "oranges tree"
+};
 const atAGlanceImage = getImage('team-member-3');
 
 
@@ -223,4 +228,5 @@ export default function Home() {
   );
 }
 
+    
     
