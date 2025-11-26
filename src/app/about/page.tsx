@@ -65,16 +65,7 @@ export default function AboutPage() {
                 <span className="font-bold text-primary">#SustainableZest</span>
               </div>
             </div>
-            <div className="space-y-6">
-                <Card className="bg-primary/5">
-                    <CardHeader>
-                        <CardTitle className="text-2xl text-primary">Our Core Values</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                        <p>At RAUT FARMER PRODUCER COMPANY, our core values are the guiding principles that define our essence. Rooted in a commitment to excellence, unity, and innovation, we relentlessly pursue quality in every aspect of our operations.</p>
-                    </CardContent>
-                </Card>
-            </div>
+            <div></div>
           </div>
         </section>
 
@@ -97,6 +88,17 @@ export default function AboutPage() {
           </div>
         </section>
         
+        <section className="mb-20">
+            <Card className="bg-primary/5">
+                <CardHeader>
+                    <CardTitle className="text-2xl text-primary">Our Core Values</CardTitle>
+                </CardHeader>
+                <CardContent>
+                    <p>At RAUT FARMER PRODUCER COMPANY, our core values are the guiding principles that define our essence. Rooted in a commitment to excellence, unity, and innovation, we relentlessly pursue quality in every aspect of our operations.</p>
+                </CardContent>
+            </Card>
+        </section>
+
         {/* CTA */}
         <section className="text-center">
             <Button asChild size="lg" className="mt-8">
