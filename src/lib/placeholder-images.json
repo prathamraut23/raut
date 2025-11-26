@@ -27,19 +27,19 @@
     {
       "id": "service-ecosystem",
       "description": "A beautiful orange plantation, showcasing a complete agricultural ecosystem.",
-      "imageUrl": "https://images.unsplash.com/photo-1549888834-3ec639e2e673?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxvcmFuZ2UlMjBwbGFudGF0aW9ufGVufDB8fHx8MTc2NTM4MTU3OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB44VGY-ZFSYXPe5OZpAbaTsS0h8_2vxtoog&s",
       "imageHint": "orange plantation"
     },
     {
       "id": "about-hero",
       "description": "A wide shot of the company's farmland or facilities.",
-      "imageUrl": "https://images.unsplash.com/photo-1703850827351-a1be4d85a095?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmYXJtbGFuZCUyMGFlcmlhbHxlbnwwfHx8fDE3NjQxNDIxOTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1703850827351-a1be4d85a095?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmYXJtbGFuZCUyMGFlcmlhbHxlbnwwfHx8fDE3NjQxNDIxOTV8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "farmland aerial"
     },
     {
       "id": "team-member-1",
       "description": "Portrait of a senior team member.",
-      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQxMDg1NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQxMDg1NjN8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "professional portrait"
     },
     {
