@@ -8,9 +8,9 @@
     },
     {
       "id": "about-teaser",
-      "description": "A close-up of a hand gently holding a ripe orange on a tree branch, highlighting the care and quality of the produce.",
+      "description": "Oranges on a tree branch.",
       "imageUrl": "https://storage.googleapis.com/stabl-media/assets/images/oranges.png",
-      "imageHint": "oranges on tree"
+      "imageHint": "oranges tree"
     },
     {
       "id": "service-farming",
@@ -20,9 +20,9 @@
     },
     {
       "id": "service-sorting",
-      "description": "Oranges moving on a conveyor belt in a sorting facility.",
-      "imageUrl": "https://images.unsplash.com/photo-1743636521309-0fd637668077?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmcnVpdCUyMHNvcnRpbmd8ZW58MHx8fHwxNzY0MTQyMTk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "fruit sorting"
+      "description": "Oranges being sorted on a conveyor belt.",
+      "imageUrl": "https://images.unsplash.com/photo-1622467827417-bbe2237067a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxvcmFuZ2UlMjBzb3J0aW5nfGVufDB8fHx8MTc2NDE0MjE5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "orange sorting"
     },
     {
       "id": "service-ecosystem",
