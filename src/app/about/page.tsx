@@ -79,12 +79,12 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="relative h-96 w-full rounded-lg shadow-xl overflow-hidden">
                 <Image
-                  src="https://www.unisorting.com/images/linea-lavorazione-arance.jpg"
-                  alt="Orange sorting machine"
+                  src="https://ellips.com/wp-content/uploads/2023/11/Orange-packing-machine.jpg"
+                  alt="Orange packing machine"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
-                  data-ai-hint="orange sorting"
+                  data-ai-hint="orange packing"
                 />
             </div>
             <div className="font-body text-lg text-foreground/80 space-y-4">

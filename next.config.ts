@@ -39,6 +39,12 @@ const nextConfig: NextConfig = {
         hostname: 'www.unisorting.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'ellips.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
