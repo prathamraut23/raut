@@ -8,8 +8,8 @@ export function Logo() {
         <Citrus className="h-6 w-6 text-primary-foreground" />
       </div>
       <div>
-        <div className="font-headline font-bold text-primary text-xl leading-none">
-          Raut Wanojekar
+        <div className="font-headline font-bold text-primary text-2xl leading-none">
+          RAW
         </div>
         <div className="text-xs text-muted-foreground leading-none mt-1">
           FARMER PRODUCER COMPANY
