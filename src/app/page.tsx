@@ -130,7 +130,7 @@ export default function Home() {
         {/* Services Section */}
         <section className="py-20">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold">OUR UPCOMING PROJECTS</h2>
+            <h2 className="text-3xl md:text-4xl font-bold">OUR SERVICES</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {services.map((service) => (
