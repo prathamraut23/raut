@@ -57,6 +57,12 @@ const nextConfig: NextConfig = {
         hostname: 'www.agrifarming.in',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.koppert.in',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
@@ -64,4 +70,5 @@ const nextConfig: NextConfig = {
 
 export default nextConfig;
 
+    
     
