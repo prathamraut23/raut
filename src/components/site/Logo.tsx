@@ -1,4 +1,4 @@
-import { Leaf } from 'lucide-react';
+
 import Link from 'next/link';
 
 export function Logo() {
@@ -8,9 +8,8 @@ export function Logo() {
         <div className="font-headline font-bold text-primary text-4xl leading-none">
           RAW
         </div>
-        <Leaf className="h-5 w-5 text-primary/80 ml-1" />
       </div>
-      <div className="border-l pl-3 ml-1">
+      <div className="border-l pl-3 ml-2">
         <div className="text-sm text-muted-foreground leading-tight tracking-widest font-cursive">
           Raut Wanojekar
         </div>
