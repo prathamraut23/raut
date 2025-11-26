@@ -24,6 +24,24 @@ const projects = [
   { title: 'High-Yield Sapling Nursery', category: 'Farming', image: getImage('project-8') },
 ];
 
+const upcomingProjects = [
+  {
+    title: 'Sustainable Farming',
+    description: 'We employ eco-friendly farming practices to cultivate the highest quality oranges, ensuring a healthy planet and a healthy you.',
+    image: getImage('service-farming'),
+  },
+  {
+    title: 'Advanced Sorting & Grading',
+    description: 'Utilizing state-of-the-art technology, we sort and grade our oranges to meet the highest standards of quality and size.',
+    image: getImage('service-sorting'),
+  },
+  {
+    title: 'Complete Ecosystem',
+    description: 'From soil health to market access, we support our farmers at every step, creating a thriving agricultural ecosystem.',
+    image: getImage('service-ecosystem'),
+  },
+];
+
 export default function ProjectsPage() {
   return (
     <div>
@@ -67,6 +85,36 @@ export default function ProjectsPage() {
                 </Card>
             ))}
         </div>
+
+        <section className="py-20">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold">OUR UPCOMING PROJECTS</h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {upcomingProjects.map((project) => (
+              <Card key={project.title} className="flex flex-col overflow-hidden group">
+                 <div className="relative h-48 w-full">
+                    {project.image && (
+                      <Image
+                        src={project.image.imageUrl}
+                        alt={project.image.description}
+                        fill
+                        className="object-cover transition-transform duration-300 group-hover:scale-105"
+                        sizes="(max-width: 768px) 100vw, 33vw"
+                        data-ai-hint={project.image.imageHint}
+                      />
+                    )}
+                  </div>
+                <CardHeader>
+                  <CardTitle className="font-headline text-2xl">{project.title}</CardTitle>
+                </CardHeader>
+                <CardContent className="font-body text-foreground/70 flex-grow">
+                  {project.description}
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </section>
 
         <section className="text-center mt-24">
             <h2 className="text-3xl font-bold text-primary">Have a Project Idea?</h2>
