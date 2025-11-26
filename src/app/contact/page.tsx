@@ -55,7 +55,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="text-xl font-headline">Address</h3>
-                  <p className="text-foreground/70 font-body">wanoja,dist washim, <br/>state maharashra</p>
+                  <p className="text-foreground/70 font-body">Wanoja Tq - Mangrulpir <br/> Dist - Washim <br/> State - Maharashtra</p>
                 </div>
               </div>
             </div>

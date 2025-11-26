@@ -47,7 +47,7 @@ export default function Footer() {
             <div className="mt-4 space-y-2 text-sm text-foreground/70">
                 <p>Email: rautwanojafpc@gmail.com</p>
                 <p>Phone: +91 9586351548</p>
-                <p>Address: wanoja,dist washim, state maharashra</p>
+                <p>Address: Wanoja Tq - Mangrulpir Dist - Washim State - Maharashtra</p>
             </div>
             <div className="mt-4 flex space-x-4">
               {socialLinks.map((link, index) => (
