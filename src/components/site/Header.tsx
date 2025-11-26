@@ -12,7 +12,7 @@ import { Logo } from './Logo';
 
 const navLinks = [
   { href: '/', label: 'Home' },
-  { href: '/about', label: 'About Us' },
+  { href: '/about', label: 'About' },
   { href: '/services', label: 'Services' },
   { href: '/projects', label: 'Projects' },
   { href: '/contact', label: 'Contact' },
@@ -28,8 +28,8 @@ const NavLink = ({ href, children }: { href: string; children: React.ReactNode }
       className={cn(
         'px-3 py-2 rounded-md text-sm font-medium transition-colors',
         isActive
-          ? 'bg-primary/10 text-primary'
-          : 'text-foreground/70 hover:text-foreground'
+          ? 'text-primary'
+          : 'text-foreground/70 hover:text-primary'
       )}
     >
       {children}
@@ -63,12 +63,12 @@ export default function Header() {
                 <span className="sr-only">Open menu</span>
               </Button>
             </SheetTrigger>
-            <SheetContent side="right" className="w-full max-w-xs bg-background">
+            <SheetContent side="left" className="w-full max-w-xs bg-background">
               <div className="flex h-full flex-col">
                 <div className="flex items-center justify-between border-b pb-4">
                   <Logo />
                   <Button variant="ghost" size="icon" onClick={() => setIsMobileMenuOpen(false)}>
-                    <X className="h-6 w-6" />
+                    <X className="h-6 w-6 text-primary" />
                     <span className="sr-only">Close menu</span>
                   </Button>
                 </div>

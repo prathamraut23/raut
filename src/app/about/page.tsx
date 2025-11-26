@@ -45,8 +45,8 @@ export default function AboutPage() {
         )}
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-white">
-          <h1 className="text-4xl tracking-tighter md:text-6xl font-bold">About Our Company</h1>
-          <p className="mt-2 max-w-3xl text-lg font-body">Our Story: Rooted in Community, Grown with Purpose</p>
+          <h1 className="text-4xl tracking-tighter md:text-6xl font-bold">About Us</h1>
+          <p className="mt-2 max-w-3xl text-lg font-body">Step into a citrus paradise with RAUT FARMER PRODUCER COMPANY, where the tantalizing world of premium oranges awaits your senses.</p>
         </div>
       </section>
 
@@ -56,79 +56,32 @@ export default function AboutPage() {
         <section className="mb-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div className="space-y-4">
-              <h2 className="text-3xl md:text-4xl font-bold text-primary">Our Journey</h2>
               <p className="font-body text-lg text-foreground/80">
-                Founded in 2015, Raut Farmer Producer Company began with a simple yet powerful idea: to unite the small-scale orange growers of our region into a formidable collective. We saw the potential to not only improve livelihoods but also to set new benchmarks for quality and sustainability in the agricultural sector.
+                Immerse yourself in the succulence that defines our oranges - each one bursting with flavor and juiciness that embodies our unwavering commitment to quality. Our oranges don't just bring a burst of citrus; they radiate vibrancy, painted in the hues of sun-kissed excellence. But our commitment goes beyond the orchards; it's a journey of social responsibility. With every bite, you're supporting a community dedicated to sustainable practices and ethical farming. Join us in exploring not just the taste of excellence but the zest of a brighter, greener tomorrow!
               </p>
-              <p className="font-body text-foreground/70">
-                Starting with just a handful of families, we have grown into a robust organization representing hundreds of farmers. Our journey has been one of collaboration, innovation, and unwavering commitment to our founding principles. We have transformed challenges into opportunities, building a state-of-the-art infrastructure for sorting, grading, and processing, ensuring that our farmers' hard work is justly rewarded in the marketplace.
-              </p>
-               <p className="font-body text-foreground/70">
-                Today, we stand as a testament to the power of cooperation, proving that when farmers work together, they can cultivate a brighter future for themselves and their communities.
-              </p>
+              <div className="flex gap-2">
+                <span className="font-bold text-primary">#CitrusParadise</span>
+                <span className="font-bold text-primary">#OrangeExcellence</span>
+                <span className="font-bold text-primary">#SustainableZest</span>
+              </div>
             </div>
             <div className="space-y-6">
                 <Card className="bg-primary/5">
                     <CardHeader>
-                        <CardTitle className="text-2xl text-primary">Our Objectives</CardTitle>
+                        <CardTitle className="text-2xl text-primary">Our Core Values</CardTitle>
                     </CardHeader>
                     <CardContent>
-                        <ul className="space-y-3">
-                            {objectives.map((obj, index) => (
-                                <li key={index} className="flex items-start gap-3">
-                                    <CheckCircle className="h-5 w-5 text-green-600 mt-1 flex-shrink-0" />
-                                    <span className="font-body text-foreground/80">{obj}</span>
-                                </li>
-                            ))}
-                        </ul>
+                        <p>At RAUT FARMER PRODUCER COMPANY, our core values are the guiding principles that define our essence. Rooted in a commitment to excellence, unity, and innovation, we relentlessly pursue quality in every aspect of our operations.</p>
                     </CardContent>
                 </Card>
             </div>
           </div>
         </section>
-
-        {/* Our Team */}
-        <section className="bg-secondary/60 rounded-lg py-16 px-6 md:px-10 mb-20">
-           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary">Meet Our Leadership</h2>
-            <p className="mt-2 max-w-2xl mx-auto font-body text-lg text-foreground/70">
-              The driving force behind our mission and success.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {teamMembers.map((member) => (
-              <Card key={member.name} className="text-center border-0 shadow-lg">
-                 <CardContent className="p-0">
-                    <div className="relative h-64 w-full">
-                        {member.image && (
-                            <Image
-                                src={member.image.imageUrl}
-                                alt={`Portrait of ${member.name}`}
-                                fill
-                                className="object-cover rounded-t-lg"
-                                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                                data-ai-hint={member.image.imageHint}
-                            />
-                        )}
-                    </div>
-                    <div className="p-6">
-                        <h3 className="font-headline text-xl font-semibold">{member.name}</h3>
-                        <p className="text-primary font-medium font-body">{member.title}</p>
-                    </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </section>
         
         {/* CTA */}
         <section className="text-center">
-            <h2 className="text-3xl font-bold text-primary">Join Our Mission</h2>
-            <p className="mt-4 max-w-2xl mx-auto text-lg font-body text-foreground/80">
-                Whether you are a farmer, a potential partner, or a customer, we invite you to connect with us and be a part of our journey towards a sustainable agricultural future.
-            </p>
             <Button asChild size="lg" className="mt-8">
-                <Link href="/contact">Get In Touch</Link>
+                <Link href="/contact">LEARN MORE</Link>
             </Button>
         </section>
 

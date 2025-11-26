@@ -15,37 +15,19 @@ const getImage = (id: string) => PlaceHolderImages.find(img => img.id === id);
 
 const services = [
   {
-    title: 'Sustainable Orange Farming',
-    description: 'We guide our farmers in adopting modern, sustainable agricultural practices that enhance crop yield, improve soil health, and minimize environmental impact. Our focus is on growing delicious, healthy oranges for generations to come.',
-    image: getImage('service-detail-farming'),
-    features: [
-      'Integrated Pest Management (IPM)',
-      'Organic fertilization and soil enrichment',
-      'Water conservation techniques',
-      'Crop rotation and biodiversity promotion',
-    ],
+    title: 'AGRO PRODUCTS',
+    description: 'like fertilizers and pesticides',
+    image: getImage('service-detail-farming')
   },
   {
-    title: 'Advanced Sorting & Grading',
-    description: 'Our central processing facility is equipped with cutting-edge technology to sort and grade oranges based on size, color, weight, and quality. This ensures uniformity and premium value for every batch that leaves our facility.',
-    image: getImage('service-detail-sorting'),
-    features: [
-      'Automated optical sorting technology',
-      'Hygienic handling and processing',
-      'Customized packaging solutions',
-      'Strict quality control at every stage',
-    ],
+    title: 'COLD STORAGE',
+    description: 'for fruits and vegetables',
+    image: getImage('service-detail-sorting')
   },
   {
-    title: 'Complete Ecosystem Support',
-    description: 'We believe in holistic support. Our services extend beyond the farm to include financial guidance, market linkage, and continuous training. We empower our farmers to become successful agri-preneurs.',
-    image: getImage('service-detail-support'),
-    features: [
-      'Access to low-cost, high-quality inputs',
-      'Financial literacy and loan assistance',
-      'Direct market access, eliminating middlemen',
-      'Regular training on new technologies and market trends',
-    ],
+    title: 'FRUITS PROCESSING UNIT',
+    description: '',
+    image: getImage('service-detail-support')
   },
 ];
 
@@ -62,34 +44,28 @@ export default function ServicesPage() {
       </section>
 
       <main className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 md:py-20">
-        <div className="space-y-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {services.map((service, index) => (
-                <section key={service.title} className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                    <div className={`space-y-6 ${index % 2 !== 0 ? 'lg:order-last' : ''}`}>
-                        <h2 className="text-3xl md:text-4xl font-bold text-primary">{service.title}</h2>
-                        <p className="font-body text-lg text-foreground/80">{service.description}</p>
-                        <ul className="space-y-3 pt-2">
-                            {service.features.map(feature => (
-                                <li key={feature} className="flex items-center gap-3">
-                                    <Check className="h-5 w-5 text-primary flex-shrink-0" />
-                                    <span className="font-body text-foreground/70">{feature}</span>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-                    <div className="relative h-96 w-full rounded-lg shadow-xl overflow-hidden">
-                        {service.image && (
-                            <Image
-                                src={service.image.imageUrl}
-                                alt={service.image.description}
-                                fill
-                                className="object-cover"
-                                sizes="(max-width: 1024px) 100vw, 50vw"
-                                data-ai-hint={service.image.imageHint}
-                            />
-                        )}
-                    </div>
-                </section>
+              <Card key={service.title} className="flex flex-col overflow-hidden group">
+              <div className="relative h-48 w-full">
+                 {service.image && (
+                   <Image
+                     src={service.image.imageUrl}
+                     alt={service.image.description}
+                     fill
+                     className="object-cover transition-transform duration-300 group-hover:scale-105"
+                     sizes="(max-width: 768px) 100vw, 33vw"
+                     data-ai-hint={service.image.imageHint}
+                   />
+                 )}
+               </div>
+             <CardHeader>
+               <CardTitle className="font-headline text-2xl">{service.title}</CardTitle>
+             </CardHeader>
+             <CardContent className="font-body text-foreground/70 flex-grow">
+               {service.description}
+             </CardContent>
+           </Card>
             ))}
         </div>
         

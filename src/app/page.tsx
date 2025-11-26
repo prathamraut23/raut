@@ -54,15 +54,13 @@ export default function Home() {
           />
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-        <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-white">
-          <h1 className="text-4xl leading-tight tracking-tighter md:text-6xl lg:text-7xl font-bold text-shadow-lg">
-            Cultivating Excellence, From Farm to Table.
+        <div className="relative z-10 flex h-full flex-col items-start justify-center text-left text-white container mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-lg md:text-xl font-body">Explore The World Of Oranges</p>
+          <h1 className="text-4xl leading-tight tracking-tighter md:text-6xl lg:text-7xl font-bold text-shadow-lg max-w-2xl">
+            RAUT FARMER PRODUCER COMPANY
           </h1>
-          <p className="mt-4 max-w-2xl font-body text-lg md:text-xl">
-            Raut Farmer Producer Company is dedicated to empowering farmers and delivering the freshest, highest-quality oranges through sustainable and innovative practices.
-          </p>
-          <Button asChild size="lg" className="mt-8 bg-primary hover:bg-primary/90 text-primary-foreground">
-            <Link href="/about">Learn More <ArrowRight className="ml-2 h-5 w-5" /></Link>
+          <Button asChild size="lg" className="mt-8">
+            <Link href="/about">LEARN MORE</Link>
           </Button>
         </div>
       </section>
@@ -99,10 +97,7 @@ export default function Home() {
         {/* Services Section */}
         <section className="py-20">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary">Our Core Services</h2>
-            <p className="mt-2 max-w-2xl mx-auto font-body text-lg text-foreground/70">
-              We provide a comprehensive suite of services to support our farmers and ensure top-quality produce.
-            </p>
+            <h2 className="text-3xl md:text-4xl font-bold">OUR UPCOMING PROJECTS</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {services.map((service) => (
@@ -120,7 +115,7 @@ export default function Home() {
                     )}
                   </div>
                 <CardHeader className="flex-row items-center gap-4">
-                  {service.icon}
+                  
                   <CardTitle className="font-headline text-2xl">{service.title}</CardTitle>
                 </CardHeader>
                 <CardContent className="font-body text-foreground/70 flex-grow">
@@ -129,16 +124,11 @@ export default function Home() {
               </Card>
             ))}
           </div>
-           <div className="text-center mt-12">
-              <Button asChild>
-                <Link href="/services">View All Services <ArrowRight className="ml-2 h-4 w-4" /></Link>
-              </Button>
-            </div>
         </section>
         
         {/* Vision & Mission */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
-            <Card className="bg-secondary/60 border-primary/20">
+            <Card className="bg-secondary/60">
                 <CardHeader className="flex-row items-center gap-4">
                     <Eye className="h-8 w-8 text-primary" />
                     <CardTitle className="text-2xl text-primary">Our Vision</CardTitle>
@@ -147,7 +137,7 @@ export default function Home() {
                     To be a leading global model for sustainable and community-centric agriculture, recognized for our quality, integrity, and positive impact.
                 </CardContent>
             </Card>
-             <Card className="bg-secondary/60 border-primary/20">
+             <Card className="bg-secondary/60">
                 <CardHeader className="flex-row items-center gap-4">
                     <Goal className="h-8 w-8 text-primary" />
                     <CardTitle className="text-2xl text-primary">Our Mission</CardTitle>
