@@ -77,6 +77,25 @@ export default function AboutPage() {
             </div>
           </div>
         </section>
+
+        {/* About Work Section */}
+        <section className="mb-20">
+          <div className="text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-primary">About Our Work</h2>
+            <p className="mt-2 text-xl font-headline">Grading and Sorting</p>
+          </div>
+          <div className="mt-8 font-body text-lg text-foreground/80 space-y-4 max-w-4xl mx-auto">
+            <p>
+              At RAUT FARMER PRODUCER COMPANY, our grading and sorting process is carried out with a mix of advanced technology and skilled human supervision. Optical sensors and automated machinery examine each orange for size, color, texture, weight, and external quality to ensure accuracy and uniformity. Our trained team further performs manual checks to remove any imperfect fruits and maintain consistent standards.
+            </p>
+            <p>
+              After grading, the oranges go through a careful washing and waxing process. This helps remove dust, enhances the natural shine of the fruit, improves shelf life, and keeps the oranges fresh during transport. Once prepared, each batch is packed using high-quality materials that protect the fruit and enhance its visual appeal.
+            </p>
+            <p>
+              Every step follows strict hygiene and quality control guidelines, allowing us to deliver clean, fresh, and premium-grade oranges ready for markets, retailers, and long-distance supply.
+            </p>
+          </div>
+        </section>
         
         {/* CTA */}
         <section className="text-center">
