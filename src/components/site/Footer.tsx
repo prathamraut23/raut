@@ -45,9 +45,9 @@ export default function Footer() {
           <div className="md:mx-auto">
              <h3 className="text-lg font-headline tracking-wider text-foreground">Connect With Us</h3>
             <div className="mt-4 space-y-2 text-sm text-foreground/70">
-                <p>Email: contact@rautorange.com</p>
-                <p>Phone: +91 123 456 7890</p>
-                <p>Address: Nagpur, Maharashtra, India</p>
+                <p>Email: rautwanojafpc@gmail.com</p>
+                <p>Phone: +91 9586351548</p>
+                <p>Address: wanoja,dist washim, state maharashra</p>
             </div>
             <div className="mt-4 flex space-x-4">
               {socialLinks.map((link, index) => (

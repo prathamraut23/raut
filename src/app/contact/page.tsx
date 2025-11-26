@@ -37,7 +37,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="text-xl font-headline">Phone</h3>
-                  <p className="text-foreground/70 font-body">+91 123 456 7890</p>
+                  <p className="text-foreground/70 font-body">+91 9586351548</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -46,7 +46,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="text-xl font-headline">Email</h3>
-                  <p className="text-foreground/70 font-body">contact@rautorange.com</p>
+                  <p className="text-foreground/70 font-body">rautwanojafpc@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -55,7 +55,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="text-xl font-headline">Address</h3>
-                  <p className="text-foreground/70 font-body">Katol Road, Nagpur, <br/>Maharashtra, 440013, India</p>
+                  <p className="text-foreground/70 font-body">wanoja,dist washim, <br/>state maharashra</p>
                 </div>
               </div>
             </div>
