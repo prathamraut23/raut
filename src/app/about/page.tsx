@@ -79,7 +79,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="relative h-96 w-full rounded-lg shadow-xl overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1558985228-a27923483f2a?q=80&w=2070&auto=format&fit=crop"
+                  src="https://www.unisorting.com/images/linea-lavorazione-arance.jpg"
                   alt="Orange sorting machine"
                   fill
                   className="object-cover"
