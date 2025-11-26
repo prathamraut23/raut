@@ -70,7 +70,7 @@ export default function Home() {
       
       <main className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 md:py-20">
         {/* About Teaser */}
-        <section className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <section className="grid grid-cols-1 md:grid-cols-1 gap-12 items-center">
           <div className="space-y-4">
             <h2 className="text-3xl md:text-4xl font-bold text-primary">Who We Are</h2>
             <p className="font-body text-lg text-foreground/80">
@@ -82,18 +82,6 @@ export default function Home() {
             <Button asChild variant="outline" className="mt-4">
               <Link href="/about">Discover Our Story <ArrowRight className="ml-2 h-4 w-4" /></Link>
             </Button>
-          </div>
-          <div className="relative h-80 w-full rounded-lg shadow-xl overflow-hidden">
-            {aboutTeaserImage && (
-              <Image
-                src={aboutTeaserImage.imageUrl}
-                alt={aboutTeaserImage.description}
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 100vw, 50vw"
-                data-ai-hint={aboutTeaserImage.imageHint}
-              />
-            )}
           </div>
         </section>
 
