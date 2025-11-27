@@ -45,6 +45,13 @@ export default function ServicesPage() {
       </section>
 
       <main className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+        <section className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-primary">For Farmers</h2>
+            <p className="mt-4 max-w-3xl mx-auto text-lg font-body text-foreground/80">
+                At RAUT FARMER PRODUCER COMPANY, we understand that sustainability is essential for the future of agriculture. We help farmers adopt innovative techniques that reduce environmental impact and make efficient use of limited water and nutrients. Our goal is to equip farmers with modern, practical solutions that support long-term, sustainable farming.
+            </p>
+        </section>
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {services.map((service, index) => (
               <Card key={service.title} className="flex flex-col overflow-hidden group">
