@@ -136,6 +136,12 @@ const nextConfig: NextConfig = {
         hostname: 'regaber.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'img-cdn.publive.online',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
@@ -149,5 +155,8 @@ export default nextConfig;
     
 
     
+
+    
+
 
     
