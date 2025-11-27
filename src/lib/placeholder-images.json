@@ -45,7 +45,7 @@
     {
       "id": "team-member-2",
       "description": "Portrait of a female team member.",
-      "imageUrl": "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21hbiUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3NjQwMzA0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21hbiUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3NjQwMzA0NDB8MA&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "woman professional"
     },
     {
@@ -75,7 +75,7 @@
     {
       "id": "project-1",
       "description": "Drip irrigation system in an orange grove.",
-      "imageUrl": "https://images.unsplash.com/photo-1569817254398-908cdf243100?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmYXJtJTIwaXJyaWdhdGlvbnxlbnwwfHx8fDE3NjQwNjY1MDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://regaber.com/wp-content/uploads/2022/03/Riego-de-citricos_regaber-1030x687.jpg",
       "imageHint": "farm irrigation"
     },
     {

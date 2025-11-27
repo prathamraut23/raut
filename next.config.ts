@@ -130,6 +130,12 @@ const nextConfig: NextConfig = {
         hostname: 'futura-centralasia.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'regaber.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
