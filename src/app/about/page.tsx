@@ -31,10 +31,6 @@ const teamMembers = [
 
 const workImages = [
     {
-        src: 'https://www.unisorting.com/wp-content/uploads/2021/11/orange_b-1.jpg',
-        alt: 'Freshly sorted oranges in a crate.'
-    },
-    {
         src: "https://media.istockphoto.com/id/1180067245/photo/the-working-of-citrus-fruits.jpg?s=612x612&w=0&k=20&c=_5kfpVaDxGTwmVWUOYkcZrgQb3mzKVrJ246KYHzBxTQ=",
         alt: "Citrus fruits being processed on a conveyor belt."
     },
