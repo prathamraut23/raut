@@ -10,7 +10,7 @@ export function Logo() {
         </div>
       </div>
       <div className="border-l pl-3 ml-2">
-        <div className="text-sm text-muted-foreground leading-tight tracking-widest font-sans font-extrabold">
+        <div className="text-sm text-muted-foreground leading-tight tracking-widest font-sans font-black">
           Raut Wanojekar
         </div>
       </div>
