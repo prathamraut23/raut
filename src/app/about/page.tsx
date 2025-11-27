@@ -1,4 +1,6 @@
 
+'use client';
+
 import Image from 'next/image';
 import { Metadata } from 'next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -12,22 +14,20 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
+  type CarouselApi,
 } from '@/components/ui/carousel';
+import { useEffect, useState } from 'react';
 
 
-export const metadata: Metadata = {
-  title: 'About Us | Raut Orange Ecosystem',
-  description: 'Learn about the history, mission, vision, and the dedicated team behind Raut Farmer Producer Company.',
-};
+// Note: Metadata is not used in client components, but we'll keep it for when this page might be server-rendered in the future.
+// export const metadata: Metadata = {
+//   title: 'About Us | Raut Orange Ecosystem',
+//   description: 'Learn about the history, mission, vision, and the dedicated team behind Raut Farmer Producer Company.',
+// };
 
 const getImage = (id: string) => PlaceHolderImages.find(img => img.id === id);
 
 const aboutHeroImage = getImage('about-hero');
-const teamMembers = [
-  { name: 'Mr. Avinash Raut', title: 'Founder & CEO', image: getImage('team-member-1') },
-  { name: 'Mrs. Sunita Deshmukh', title: 'Head of Operations', image: getImage('team-member-2') },
-  { name: 'Mr. Rohan Patil', title: 'Lead Agronomist', image: getImage('team-member-3') },
-];
 
 const workImages = [
     {
@@ -53,6 +53,28 @@ const workImages = [
 ];
 
 export default function AboutPage() {
+  const [api, setApi] = useState<CarouselApi>()
+  const [current, setCurrent] = useState(0)
+  const [count, setCount] = useState(0)
+
+  useEffect(() => {
+    if (!api) {
+      return
+    }
+
+    setCount(api.scrollSnapList().length)
+    setCurrent(api.selectedScrollSnap())
+
+    api.on("select", () => {
+      setCurrent(api.selectedScrollSnap())
+    })
+  }, [api])
+
+  const handleDotClick = (index: number) => {
+    api?.scrollTo(index);
+  };
+
+
   return (
     <div>
       {/* Hero Section */}
@@ -100,8 +122,8 @@ export default function AboutPage() {
             <p className="mt-2 text-xl font-headline">Grading and Sorting</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div className="w-full">
-              <Carousel className="w-full" opts={{ loop: true }}>
+            <div>
+              <Carousel setApi={setApi} className="w-full" opts={{ loop: true }}>
                 <CarouselContent>
                   {workImages.map((image, index) => (
                     <CarouselItem key={index}>
@@ -117,9 +139,21 @@ export default function AboutPage() {
                     </CarouselItem>
                   ))}
                 </CarouselContent>
-                <CarouselPrevious className="absolute left-4 top-1/2 -translate-y-1/2 z-10" />
-                <CarouselNext className="absolute right-4 top-1/2 -translate-y-1/2 z-10" />
+                <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 z-10 h-10 w-10 bg-black/30 text-white hover:bg-black/50 border-none" />
+                <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 z-10 h-10 w-10 bg-black/30 text-white hover:bg-black/50 border-none" />
               </Carousel>
+              <div className="flex justify-center gap-2 mt-4">
+                {workImages.map((_, index) => (
+                  <button
+                    key={index}
+                    onClick={() => handleDotClick(index)}
+                    className={`h-3 w-3 rounded-full transition-colors ${
+                      current === index ? 'bg-primary' : 'bg-gray-300 hover:bg-gray-400'
+                    }`}
+                    aria-label={`Go to slide ${index + 1}`}
+                  />
+                ))}
+              </div>
             </div>
             <div className="font-body text-lg text-foreground/80 space-y-4">
               <p>
