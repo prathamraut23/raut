@@ -143,6 +143,12 @@ const nextConfig: NextConfig = {
         hostname: 'img-cdn.publive.online',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'static.wixstatic.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
