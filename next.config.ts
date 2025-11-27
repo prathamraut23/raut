@@ -88,6 +88,12 @@ const nextConfig: NextConfig = {
         hostname: 'kj1bcdn.b-cdn.net',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'staticimg.amarujala.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },

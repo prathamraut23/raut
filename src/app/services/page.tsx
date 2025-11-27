@@ -15,8 +15,8 @@ const getImage = (id: string) => PlaceHolderImages.find(img => img.id === id);
 
 const services = [
   {
-    title: 'AGRO PRODUCTS',
-    description: 'like fertilizers and pesticides',
+    title: 'Maximized Farmer Income',
+    description: 'We believe the strength of agriculture depends on the prosperity of farmers. Through accurate grading and efficient marketing, we help farmers get the best value for their produce. This improves their income, strengthens their confidence, and supports long-term sustainable farming.',
     image: getImage('service-detail-farming')
   },
   {
