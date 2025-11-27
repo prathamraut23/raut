@@ -124,6 +124,12 @@ const nextConfig: NextConfig = {
         hostname: 'assets.bwbx.io',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'futura-centralasia.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
@@ -139,4 +145,3 @@ export default nextConfig;
     
 
     
-
