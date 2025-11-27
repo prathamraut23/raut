@@ -114,7 +114,8 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
       {
-        protocol: 'https',
+        protocol: 'https'
+        ,
         hostname: 'cdn.wikifarmer.com',
         port: '',
         pathname: '/**',
@@ -158,5 +159,7 @@ export default nextConfig;
 
     
 
+
+    
 
     
