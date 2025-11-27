@@ -118,6 +118,12 @@ const nextConfig: NextConfig = {
         hostname: 'cdn.wikifarmer.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'assets.bwbx.io',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
@@ -133,3 +139,4 @@ export default nextConfig;
     
 
     
+

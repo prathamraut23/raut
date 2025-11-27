@@ -6,6 +6,14 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from '@/components/ui/carousel';
+
 
 export const metadata: Metadata = {
   title: 'About Us | Raut Orange Ecosystem',
@@ -21,12 +29,23 @@ const teamMembers = [
   { name: 'Mr. Rohan Patil', title: 'Lead Agronomist', image: getImage('team-member-3') },
 ];
 
-const objectives = [
-  "To improve the income of member farmers by creating market linkages.",
-  "To provide quality inputs and services to member farmers at reasonable prices.",
-  "To promote sustainable agricultural practices and protect the environment.",
-  "To facilitate access to modern technology and scientific farming methods.",
-  "To build a strong, self-reliant farming community."
+const workImages = [
+    {
+        src: "https://media.istockphoto.com/id/1180067245/photo/the-working-of-citrus-fruits.jpg?s=612x612&w=0&k=20&c=_5kfpVaDxGTwmVWUOYkcZrgQb3mzKVrJ246KYHzBxTQ=",
+        alt: "Citrus fruits being processed on a conveyor belt."
+    },
+    {
+        src: "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iU0Vn1Ij7MO0/v0/-1x-1.webp",
+        alt: "Close up of oranges on a sorting machine."
+    },
+    {
+        src: "https://media.istockphoto.com/id/1354043901/photo/washing-peaches-on-production-line-in-packaging-workshop.jpg?s=612x612&w=0&k=20&c=_st7yCp53f79rOhyiB0_li9TmIYxgSWwGsq2Z_9_mbk=",
+        alt: "Peaches being washed on a production line."
+    },
+    {
+        src: "https://media.istockphoto.com/id/1312405786/photo/close-up-orange-citrus-washing-on-conveyor-belt-at-fruits-automation-water-spray-cleaning.jpg?s=612x612&w=0&k=20&c=O7xGcVddQB6QusZpIwuPT5rEPqF9gLuTtwocLZRwJOw=",
+        alt: "Oranges being washed by water spray on an automated conveyor belt."
+    }
 ];
 
 export default function AboutPage() {
@@ -77,15 +96,26 @@ export default function AboutPage() {
             <p className="mt-2 text-xl font-headline">Grading and Sorting</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div className="relative h-96 w-full rounded-lg shadow-xl overflow-hidden">
-                <Image
-                  src="https://ellips.com/wp-content/uploads/2023/11/Orange-packing-machine.jpg"
-                  alt="Orange packing machine"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                  data-ai-hint="orange packing"
-                />
+            <div className="w-full">
+              <Carousel className="w-full" opts={{ loop: true }}>
+                <CarouselContent>
+                  {workImages.map((image, index) => (
+                    <CarouselItem key={index}>
+                      <div className="relative h-96 w-full rounded-lg shadow-xl overflow-hidden">
+                        <Image
+                          src={image.src}
+                          alt={image.alt}
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 768px) 100vw, 50vw"
+                        />
+                      </div>
+                    </CarouselItem>
+                  ))}
+                </CarouselContent>
+                <CarouselPrevious className="absolute left-4 top-1/2 -translate-y-1/2 z-10" />
+                <CarouselNext className="absolute right-4 top-1/2 -translate-y-1/2 z-10" />
+              </Carousel>
             </div>
             <div className="font-body text-lg text-foreground/80 space-y-4">
               <p>
