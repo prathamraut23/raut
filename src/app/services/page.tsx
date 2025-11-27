@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { Metadata } from 'next';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -25,8 +26,8 @@ const services = [
     image: getImage('service-detail-sorting')
   },
   {
-    title: 'FRUITS PROCESSING UNIT',
-    description: '',
+    title: 'Strengthening Agri-Ecosystem',
+    description: 'We aim to build a strong and sustainable agricultural ecosystem by ensuring fair pricing, quality produce, and expert advisory support. We encourage responsible farming practices and better resource use, helping farmers grow steadily while strengthening the overall agri-community.',
     image: getImage('service-detail-support')
   },
 ];
