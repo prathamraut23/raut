@@ -48,7 +48,7 @@ export default function ServicesPage() {
         <section className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-primary">For Farmers</h2>
             <p className="mt-4 max-w-3xl mx-auto text-lg font-body text-foreground/80">
-                At RAUT FARMER PRODUCER COMPANY, we understand that sustainability is essential for the future of agriculture. We help farmers adopt innovative techniques that reduce environmental impact and make efficient use of limited water and nutrients. Our goal is to equip farmers with modern, practical solutions that support long-term, sustainable farming.
+                At RAUT FARMER PRODUCER COMPANY, we understand that sustainability is essential for the future of agriculture. We help farmers adopt innovative techniques that reduce environmental impact and make efficient use of limited water and nutrients.
             </p>
         </section>
 
