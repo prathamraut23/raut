@@ -35,10 +35,14 @@ const services = [
 export default function ServicesPage() {
   return (
     <div>
-       <section className="bg-secondary py-20 text-center">
-        <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <h1 className="text-4xl tracking-tighter md:text-6xl font-bold text-primary">Our Services</h1>
-            <p className="mt-4 max-w-3xl mx-auto text-lg font-body text-foreground/80">
+       <section 
+        className="relative py-20 text-center text-white bg-cover bg-center"
+        style={{ backgroundImage: "url('https://cdn.wikifarmer.com/images/detailed/2017/06/Growing-Orange-Trees-commercially.jpg')" }}
+      >
+        <div className="absolute inset-0 bg-black/50"></div>
+        <div className="relative z-10 container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <h1 className="text-4xl tracking-tighter md:text-6xl font-bold">Our Services</h1>
+            <p className="mt-4 max-w-3xl mx-auto text-lg font-body text-white/90">
                 Providing end-to-end solutions to build a resilient and prosperous agricultural community.
             </p>
         </div>

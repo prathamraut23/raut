@@ -112,6 +112,12 @@ const nextConfig: NextConfig = {
         hostname: 'media.licdn.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.wikifarmer.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
