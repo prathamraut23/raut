@@ -94,6 +94,12 @@ const nextConfig: NextConfig = {
         hostname: 'staticimg.amarujala.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'hokolubazaragritech.in',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
@@ -107,3 +113,4 @@ export default nextConfig;
     
 
     
+

@@ -20,8 +20,8 @@ const services = [
     image: getImage('service-detail-farming')
   },
   {
-    title: 'COLD STORAGE',
-    description: 'for fruits and vegetables',
+    title: 'Digital Enablement of Farmers',
+    description: 'We empower farmers with fast digital payments that improve cash flow and help build credit histories for better financial access. We also use AI tools to monitor orange crops, predict early diseases, and provide timely recommendations, helping farmers reduce losses and improve productivity.',
     image: getImage('service-detail-sorting')
   },
   {

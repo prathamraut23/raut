@@ -20,9 +20,9 @@
     },
     {
       "id": "service-sorting",
-      "description": "Oranges being sorted on a conveyor belt.",
-      "imageUrl": "https://i.ytimg.com/vi/iicRKvCO32M/maxresdefault.jpg",
-      "imageHint": "orange sorting"
+      "description": "A farmer using a tablet in a field with orange trees.",
+      "imageUrl": "https://hokolubazaragritech.in/wp-content/uploads/2024/08/serviceimage1.png",
+      "imageHint": "farmer technology"
     },
     {
       "id": "service-ecosystem",
@@ -45,13 +45,13 @@
     {
       "id": "team-member-2",
       "description": "Portrait of a female team member.",
-      "imageUrl": "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21hbiUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3NjQwMzA0NDB8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21hbiUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3NjQwMzA0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "woman professional"
     },
     {
       "id": "team-member-3",
       "description": "Portrait of a young team member in the field.",
-      "imageUrl": "https://images.unsplash.com/photo-1666452165223-a369d541ff0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYXJtZXIlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQwNTM2NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1666452165223-a369d541ff0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYXJtZXIlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQwNTM2NTd8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "farmer portrait"
     },
     {
@@ -62,9 +62,9 @@
     },
     {
       "id": "service-detail-sorting",
-      "description": "A worker carefully inspecting oranges at a grading station.",
-      "imageUrl": "https://images.unsplash.com/photo-1748255882537-cbe88b145305?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxxdWFsaXR5JTIwY29udHJvbHxlbnwwfHx8fDE3NjQxNDIxOTR8MA&ixlibrb-4.1.0&q=80&w=1080",
-      "imageHint": "quality control"
+      "description": "A farmer using a tablet in a field with orange trees.",
+      "imageUrl": "https://hokolubazaragritech.in/wp-content/uploads/2024/08/serviceimage1.png",
+      "imageHint": "farmer technology"
     },
     {
       "id": "service-detail-support",
@@ -75,7 +75,7 @@
     {
       "id": "project-1",
       "description": "Drip irrigation system in an orange grove.",
-      "imageUrl": "https://images.unsplash.com/photo-1569817254398-908cdf243100?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmYXJtJTIwaXJyaWdhdGlvbnxlbnwwfHx8fDE3NjQwNjY1MDF8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1569817254398-908cdf243100?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmYXJtJTIwaXJyaWdhdGlvbnxlbnwwfHx8fDE3NjQwNjY1MDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "farm irrigation"
     },
     {
@@ -123,13 +123,13 @@
     {
       "id": "project-7",
       "description": "A community-built water reservoir shimmering under the sun.",
-      "imageUrl": "https://images.unsplash.com/photo-1608321233393-93721b7b9c30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3YXRlciUyMHJlc2Vydm9pcnxlbnwwfHx8fDE3NjQxNDIxOTR8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1608321233393-93721b7b9c30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3YXRlciUyMHJlc2Vydm9pcnxlbnwwfHx8fDE3NjQxNDIxOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "water reservoir"
     },
     {
       "id": "project-8",
       "description": "Rows of healthy saplings in a nursery, ready for planting.",
-      "imageUrl": "https://images.unsplash.com/photo-1740915144001-61d14e79963c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzYXBsaW5nJTIwbnVyc2VyeXxlbnwwfHx8fDE3NjQxNDU1Mjh8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1740915144001-61d14e79963c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzYXBsaW5nJTIwbnVyc2VyeXxlbnwwfHx8fDE3NjQxNDU1Mjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sapling nursery"
     }
   ]
