@@ -106,6 +106,12 @@ const nextConfig: NextConfig = {
         hostname: 'static.vecteezy.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'media.licdn.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
@@ -114,6 +120,8 @@ const nextConfig: NextConfig = {
 export default nextConfig;
 
     
+    
+
     
 
     
