@@ -139,8 +139,8 @@ export default function AboutPage() {
                     </CarouselItem>
                   ))}
                 </CarouselContent>
-                <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 z-10 h-10 w-10 bg-black/30 text-white hover:bg-black/50 border-none" />
-                <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 z-10 h-10 w-10 bg-black/30 text-white hover:bg-black/50 border-none" />
+                <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 z-10 h-12 w-12 rounded-full bg-black/30 text-white hover:bg-black/50 border-none" />
+                <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 z-10 h-12 w-12 rounded-full bg-black/30 text-white hover:bg-black/50 border-none" />
               </Carousel>
               <div className="flex justify-center gap-2 mt-4">
                 {workImages.map((_, index) => (
