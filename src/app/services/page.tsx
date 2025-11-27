@@ -46,9 +46,9 @@ export default function ServicesPage() {
 
       <main className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 md:py-20">
         <section className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary">For Farmers</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground">For Farmers</h2>
             <p className="mt-4 max-w-3xl mx-auto text-lg font-body text-foreground/80">
-                At RAUT FARMER PRODUCER COMPANY, we understand that sustainability is essential for the future of agriculture. We help farmers adopt innovative techniques that reduce environmental impact and make efficient use of limited water and nutrients.
+                At RAUT FARMER PRODUCER COMPANY, we help farmers adopt innovative, sustainable techniques for long-term success, making efficient use of resources to ensure a resilient future in agriculture.
             </p>
         </section>
 
