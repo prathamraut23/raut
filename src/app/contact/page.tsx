@@ -3,14 +3,16 @@ import Image from 'next/image';
 import { Metadata } from 'next';
 import { Mail, MapPin, Phone } from 'lucide-react';
 import ContactForm from './contact-form';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Contact Us | Raut Orange Ecosystem',
   description: 'Get in touch with Raut Farmer Producer Company. Find our contact details, location, or send us a message through our contact form.',
 };
 
-const contactImage = PlaceHolderImages.find(img => img.id === 'contact-hero');
+const mapImageUrl = "https://picsum.photos/seed/map123/600/400";
+const mapLocationUrl = "https://www.google.com/maps/place/Wanjola,+Maharashtra+444402/@20.4066517,77.2225785,16z/data=!3m1!4b1!4m6!3m5!1s0x3bd127c78c4078f9:0x406413cb58e0eece!8m2!3d20.4070215!4d77.2275823!16s%2Fg%2F12hq_q0ss?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D";
+
 
 export default function ContactPage() {
   return (
@@ -65,15 +67,15 @@ export default function ContactPage() {
               </div>
             </div>
              <div className="relative h-80 w-full rounded-lg shadow-lg overflow-hidden mt-8">
-              {contactImage && (
-                <Image
-                  src={contactImage.imageUrl}
-                  alt={contactImage.description}
-                  fill
-                  className="object-cover"
-                  data-ai-hint={contactImage.imageHint}
-                />
-              )}
+                <Link href={mapLocationUrl} target="_blank" rel="noopener noreferrer" aria-label="View location on Google Maps">
+                    <Image
+                    src={mapImageUrl}
+                    alt="Map showing the location of Raut Farmer Producer Company"
+                    fill
+                    className="object-cover transition-transform duration-300 hover:scale-105"
+                    data-ai-hint="road map"
+                    />
+                </Link>
             </div>
           </div>
           
