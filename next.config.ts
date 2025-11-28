@@ -191,6 +191,12 @@ const nextConfig: NextConfig = {
         hostname: 'elanthalir.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.sainursery.com.au',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
