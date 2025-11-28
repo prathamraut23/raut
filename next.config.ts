@@ -179,6 +179,12 @@ const nextConfig: NextConfig = {
         hostname: 'iffco-public-assets.s3.ap-south-1.amazonaws.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'westernliner.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
