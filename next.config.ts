@@ -197,6 +197,12 @@ const nextConfig: NextConfig = {
         hostname: 'www.sainursery.com.au',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'm.media-amazon.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
