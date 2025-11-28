@@ -10,7 +10,10 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   devIndicators: {
-    buildActivity: false
+    buildActivity: false,
+    allowedDevOrigins: [
+      'https://6000-firebase-studio-1764141413393.cluster-c36dgv2kibakqwbbbsgmia3fny.cloudworkstations.dev',
+    ],
   },
   images: {
     remotePatterns: [
@@ -162,6 +165,12 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'www.greengiving.be',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'stcroperproduction.blob.core.windows.net',
         port: '',
         pathname: '/**',
       }
