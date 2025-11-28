@@ -158,6 +158,12 @@ const nextConfig: NextConfig = {
         hostname: 'croplands.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.greengiving.be',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
