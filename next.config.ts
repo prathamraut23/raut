@@ -203,23 +203,15 @@ const nextConfig: NextConfig = {
         hostname: 'm.media-amazon.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'preview.redd.it',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
 };
 
 export default nextConfig;
-
-    
-    
-
-    
-
-    
-
-    
-
-
-    
-
-    

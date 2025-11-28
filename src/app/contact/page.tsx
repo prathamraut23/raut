@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { Metadata } from 'next';
 import { Mail, MapPin, Phone } from 'lucide-react';
@@ -14,13 +15,17 @@ const contactImage = PlaceHolderImages.find(img => img.id === 'contact-hero');
 export default function ContactPage() {
   return (
     <div>
-        <section className="bg-secondary py-20 text-center">
-        <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <h1 className="text-4xl tracking-tighter md:text-6xl font-bold text-primary">Get In Touch</h1>
-            <p className="mt-4 max-w-3xl mx-auto text-lg font-body text-foreground/80">
-                We're here to answer your questions and explore opportunities. Let's connect.
-            </p>
-        </div>
+        <section 
+          className="relative bg-secondary py-20 text-center text-white bg-cover bg-center"
+          style={{ backgroundImage: "url('https://preview.redd.it/oranges-in-tropical-regions-have-green-skin-instead-of-v0-d2v4vr0myty81.jpg?width=640&crop=smart&auto=webp&s=ecfa11be7d5aaab0fc6d64dc226bcee28ec8d752')" }}
+        >
+          <div className="absolute inset-0 bg-black/50" />
+          <div className="relative z-10 container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+              <h1 className="text-4xl tracking-tighter md:text-6xl font-bold">Get In Touch</h1>
+              <p className="mt-4 max-w-3xl mx-auto text-lg font-body text-white/90">
+                  We're here to answer your questions and explore opportunities. Let's connect.
+              </p>
+          </div>
       </section>
 
       <main className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 md:py-20">
