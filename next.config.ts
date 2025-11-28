@@ -185,6 +185,12 @@ const nextConfig: NextConfig = {
         hostname: 'westernliner.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'elanthalir.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
