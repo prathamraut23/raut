@@ -40,27 +40,6 @@ const values = [
   { icon: <Lightbulb className="h-8 w-8 text-primary" />, title: 'Innovation', description: 'Embracing new technologies and techniques for better yields.' },
 ];
 
-const newsArticles = [
-  {
-    title: 'New Organic Farming Initiative Launched',
-    date: 'October 26, 2023',
-    snippet: 'We are thrilled to announce our new initiative to support 100 local farmers in transitioning to certified organic farming practices.',
-    image: getImage('news-1'),
-  },
-  {
-    title: 'Raut FPC Receives "Best Quality Produce" Award',
-    date: 'October 15, 2023',
-    snippet: 'Our commitment to excellence has been recognized at the National Agriculture Expo. We are honored to receive this prestigious award.',
-    image: getImage('news-2'),
-  },
-  {
-    title: 'Community Water Management Project Completed',
-    date: 'September 30, 2023',
-    snippet: 'The new reservoir in Wanoja is now fully operational, ensuring a stable water supply for our farmers throughout the year.',
-    image: getImage('news-3'),
-  },
-];
-
 export default function Home() {
   return (
     <div className="flex flex-col">
@@ -161,46 +140,6 @@ export default function Home() {
                 <CardContent className="font-body text-foreground/70 flex-grow">
                   {service.description}
                 </CardContent>
-              </Card>
-            ))}
-          </div>
-        </section>
-
-        {/* Latest News Section */}
-        <section className="py-20">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary">Latest News</h2>
-            <p className="mt-2 max-w-2xl mx-auto font-body text-lg text-foreground/70">
-              Stay updated with our latest activities and achievements.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {newsArticles.map((article) => (
-              <Card key={article.title} className="flex flex-col overflow-hidden group shadow-md hover:shadow-xl transition-shadow">
-                {article.image && (
-                  <div className="relative h-56 w-full">
-                    <Image
-                      src={article.image.imageUrl}
-                      alt={article.title}
-                      fill
-                      className="object-cover transition-transform duration-300 group-hover:scale-105"
-                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                      data-ai-hint={article.image.imageHint}
-                    />
-                  </div>
-                )}
-                <CardHeader>
-                  <p className="text-sm text-muted-foreground">{article.date}</p>
-                  <CardTitle className="font-headline text-xl leading-tight">{article.title}</CardTitle>
-                </CardHeader>
-                <CardContent className="font-body text-foreground/70 flex-grow">
-                  <p>{article.snippet}</p>
-                </CardContent>
-                <CardFooter>
-                  <Button variant="outline" size="sm" className="w-full">
-                    Read More
-                  </Button>
-                </CardFooter>
               </Card>
             ))}
           </div>
