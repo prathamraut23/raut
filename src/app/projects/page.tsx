@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { Metadata } from 'next';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -17,7 +18,7 @@ const projects = [
   { title: 'Drip Irrigation Implementation', category: 'Water Management', image: getImage('project-1') },
   { title: 'Solar Powered Farm Facilities', category: 'Renewable Energy', image: getImage('project-2') },
   { title: 'Farmer Training Program', category: 'Community Development', image: getImage('project-3') },
-  { title: 'Precision Agriculture with Drones', category: 'Technology', image: getImage('project-4') },
+  { title: 'Precision Agriculture with Technology', category: 'Technology', image: getImage('project-4') },
   { title: 'Eco-Friendly Packaging Unit', category: 'Value Addition', image: getImage('project-5') },
   { title: 'Organic Waste Composting', category: 'Sustainability', image: getImage('project-6') },
   { title: 'Community Water Reservoir', category: 'Water Management', image: getImage('project-7') },
