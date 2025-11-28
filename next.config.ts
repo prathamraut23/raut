@@ -173,6 +173,12 @@ const nextConfig: NextConfig = {
         hostname: 'stcroperproduction.blob.core.windows.net',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'iffco-public-assets.s3.ap-south-1.amazonaws.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
