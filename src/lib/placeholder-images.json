@@ -39,7 +39,7 @@
     {
       "id": "team-member-1",
       "description": "Portrait of a senior team member.",
-      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQxMDg1NjN8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQxMDg1NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "professional portrait"
     },
     {
@@ -131,6 +131,24 @@
       "description": "Rows of healthy saplings in a nursery, ready for planting.",
       "imageUrl": "https://m.media-amazon.com/images/I/81l2TDBC+tL.jpg",
       "imageHint": "sapling nursery"
+    },
+    {
+      "id": "news-1",
+      "description": "Farmers gathered around a table discussing organic farming.",
+      "imageUrl": "https://images.unsplash.com/photo-1721593124466-67cdfd4f0ff4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmYXJtZXJzJTIwbWVldGluZ3xlbnwwfHx8fDE3NjQzNDQ0NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "farmers meeting"
+    },
+    {
+      "id": "news-2",
+      "description": "A person holding a trophy or award.",
+      "imageUrl": "https://images.unsplash.com/photo-1759701546980-1211be084c70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YXdhcmQlMjB0cm9waHl8ZW58MHx8fHwxNzY0MzQ5MDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "award trophy"
+    },
+    {
+      "id": "news-3",
+      "description": "A water reservoir in a rural landscape.",
+      "imageUrl": "https://images.unsplash.com/photo-1650951393041-1f3826700224?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3YXRlciUyMHJlc2Vydm9pcnxlbnwwfHx8fDE3NjQzNTQ1ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "water reservoir"
     }
   ]
 }
