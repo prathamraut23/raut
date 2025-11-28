@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: 'Get in touch with Raut Farmer Producer Company. Find our contact details, location, or send us a message through our contact form.',
 };
 
-const mapImageUrl = "https://picsum.photos/seed/map123/600/400";
+const mapImageUrl = "https://www.sammyfans.com/wp-content/uploads/2022/07/Use-Google-Map-Offline.png";
 const mapLocationUrl = "https://www.google.com/maps/place/Wanjola,+Maharashtra+444402/@20.4066517,77.2225785,16z/data=!3m1!4b1!4m6!3m5!1s0x3bd127c78c4078f9:0x406413cb58e0eece!8m2!3d20.4070215!4d77.2275823!16s%2Fg%2F12hq_q0ss?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D";
 
 

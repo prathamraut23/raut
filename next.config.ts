@@ -116,12 +116,12 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'media.licdn.com',
-        port: '',
+        port: ''
+        ,
         pathname: '/**',
       },
       {
-        protocol: 'https'
-        ,
+        protocol: 'https',
         hostname: 'cdn.wikifarmer.com',
         port: '',
         pathname: '/**',
@@ -207,6 +207,12 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'preview.redd.it',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.sammyfans.com',
         port: '',
         pathname: '/**',
       }
