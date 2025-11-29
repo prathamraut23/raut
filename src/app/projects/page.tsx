@@ -27,8 +27,8 @@ const projects = [
 
 const upcomingProjects = [
   {
-    title: 'Sustainable Farming',
-    description: 'We employ eco-friendly farming practices to cultivate the highest quality oranges, ensuring a healthy planet and a healthy you.',
+    title: 'Cold Storage',
+    description: 'Our upcoming cold storage project will help preserve the freshness and quality of oranges for longer periods. This facility will reduce post-harvest losses and ensure that farmers can supply premium fruit throughout the season.',
     image: getImage('service-farming'),
   },
   {
