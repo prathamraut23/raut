@@ -174,7 +174,7 @@ export default function ProjectsPage() {
   return (
     <div>
       <section 
-        className="relative py-20 text-center text-white bg-cover bg-center"
+        className="relative py-20 text-center bg-cover bg-center"
         style={{ backgroundImage: "url('https://i.ytimg.com/vi/pVwD8ByGLc8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB94G0olceTMOifbJlPNVZfZcuvLw')" }}
       >
         <div className="absolute inset-0 bg-black/50" />
@@ -197,6 +197,15 @@ export default function ProjectsPage() {
               <UpcomingProjectCarousel key={project.title} project={project} />
             ))}
           </div>
+        </section>
+
+        <section className="text-center my-16 bg-primary/5 p-8 rounded-lg">
+          <p className="max-w-3xl mx-auto text-lg font-body text-foreground/80">
+            At RAUT FARMER PRODUCER COMPANY, our logo is more than a brand; it symbolizes hope, growth, and sustainability. As we move forward in agricultural innovation, we invite you to join us in nurturing a greener, thriving future. Our commitment goes beyond business — we focus on empowering farmers, promoting sustainable practices, and building a resilient ecosystem for long-term prosperity.
+          </p>
+          <p className="mt-4 font-bold text-primary">
+            #SustainableFarming #EmpoweringFarmers #AgriculturalInnovation
+          </p>
         </section>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
