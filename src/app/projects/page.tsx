@@ -55,6 +55,11 @@ const upcomingProjects = [
             src: "https://live.staticflickr.com/2487/3807239571_69feafd89a_b.jpg",
             alt: "Oranges stored in crates inside a cold storage room.",
             imageHint: "oranges cold storage"
+        },
+        {
+            src: "https://gumlet.assettype.com/down-to-earth/import/library/large/2022-11-14/0.85784900_1668431134_istock-1301368439.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            alt: "Oranges being stored in a modern cold storage facility.",
+            imageHint: "cold storage oranges"
         }
     ],
   },
