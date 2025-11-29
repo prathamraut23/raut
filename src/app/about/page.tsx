@@ -78,7 +78,7 @@ export default function AboutPage() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative h-[40vh] min-h-[300px] w-full bg-secondary">
+      <section className="relative h-[50vh] md:h-[40vh] min-h-[300px] w-full bg-secondary">
         {aboutHeroImage && (
           <Image
             src={aboutHeroImage.imageUrl}
@@ -92,7 +92,7 @@ export default function AboutPage() {
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-white">
           <h1 className="text-4xl tracking-tighter md:text-6xl font-bold">About Us</h1>
-          <p className="mt-2 max-w-3xl text-lg font-body">Step into a citrus paradise with RAUT FARMER PRODUCER COMPANY, where the tantalizing world of premium oranges awaits your senses.</p>
+          <p className="mt-2 max-w-3xl text-base md:text-lg font-body px-4">Step into a citrus paradise with RAUT FARMER PRODUCER COMPANY, where the tantalizing world of premium oranges awaits your senses.</p>
         </div>
       </section>
 
@@ -102,7 +102,7 @@ export default function AboutPage() {
         <section className="mb-20">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-primary">Our Story: From Helplessness to Empowerment</h2>
-            <p className="mt-2 text-xl font-headline">How we reclaimed our value, one orange at a time.</p>
+            <p className="mt-2 text-lg md:text-xl font-headline">How we reclaimed our value, one orange at a time.</p>
           </div>
 
           <div className="space-y-12 font-body text-lg text-foreground/80 max-w-4xl mx-auto">
@@ -141,13 +141,13 @@ export default function AboutPage() {
               </p>
             </div>
             
-            <div className="text-center bg-primary/5 p-8 rounded-lg shadow-inner">
+            <div className="text-center bg-primary/5 p-6 md:p-8 rounded-lg shadow-inner">
                 <Flame className="h-12 w-12 text-primary mx-auto mb-4"/>
               <h3 className="font-bold text-2xl mb-2 text-primary">The Birth of a Movement</h3>
               <p>
                 This realization led to the creation of <strong>RAUT FARMER PRODUCER COMPANY</strong>. A platform built by farmers, for farmers. A place where we process our own oranges, set fair prices, reduce wastage, and capture the profit that once disappeared into the pockets of middlemen. Today, many farmers who join us earn better, feel empowered, and finally receive the respect their hard work deserves.
               </p>
-              <p className="mt-6 italic font-headline text-2xl">
+              <p className="mt-6 italic font-headline text-xl md:text-2xl">
                 "We are not just an orange company. We are a movement — a journey of learning, unity, and reclaiming our value."
               </p>
             </div>

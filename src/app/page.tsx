@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative h-[60vh] min-h-[400px] w-full">
+      <section className="relative h-[80vh] md:h-[60vh] min-h-[400px] w-full">
         {heroImage && (
           <Image
             src={heroImage.imageUrl}
@@ -90,7 +90,7 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-bold text-primary">COMPANY AT A GLANCE</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-             <div className="relative h-96 w-full rounded-lg shadow-xl overflow-hidden">
+             <div className="relative h-80 md:h-96 w-full rounded-lg shadow-xl overflow-hidden">
                 <Image
                   src="https://kj1bcdn.b-cdn.net/media/64107/wp2202603.jpg"
                   alt="A pile of fresh oranges with leaves."
@@ -175,7 +175,7 @@ export default function Home() {
             <div className="absolute inset-0 bg-black/60 rounded-lg"></div>
             <div className="relative grid grid-cols-1 md:grid-cols-3 items-center gap-8">
                 <div className="md:col-span-1 flex justify-center">
-                   <BookUser className="h-24 w-24" />
+                   <BookUser className="h-16 w-16 md:h-24 md:w-24" />
                 </div>
                 <div className="md:col-span-2 space-y-4">
                     <h2 className="text-3xl md:text-4xl font-bold">OBJECTIVES</h2>

@@ -2,7 +2,6 @@
 'use client';
 
 import Image from 'next/image';
-import { Metadata } from 'next';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Check } from 'lucide-react';
@@ -107,7 +106,7 @@ export default function ServicesPage() {
         <section className="mb-20">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-primary">About Our Work</h2>
-            <p className="mt-2 text-xl font-headline">Grading and Sorting</p>
+            <p className="mt-2 text-lg md:text-xl font-headline">Grading and Sorting</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
@@ -115,7 +114,7 @@ export default function ServicesPage() {
                 <CarouselContent>
                   {workImages.map((image, index) => (
                     <CarouselItem key={index}>
-                      <div className="relative h-96 w-full rounded-lg shadow-xl overflow-hidden">
+                      <div className="relative h-80 md:h-96 w-full rounded-lg shadow-xl overflow-hidden">
                         <Image
                           src={image.src}
                           alt={image.alt}
@@ -127,15 +126,15 @@ export default function ServicesPage() {
                     </CarouselItem>
                   ))}
                 </CarouselContent>
-                <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 z-10 h-12 w-12 rounded-full bg-black/30 text-white hover:bg-black/50 border-none" />
-                <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 z-10 h-12 w-12 rounded-full bg-black/30 text-white hover:bg-black/50 border-none" />
+                <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 z-10 h-8 w-8 md:h-12 md:w-12 rounded-full bg-black/30 text-white hover:bg-black/50 border-none" />
+                <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 z-10 h-8 w-8 md:h-12 md:w-12 rounded-full bg-black/30 text-white hover:bg-black/50 border-none" />
               </Carousel>
               <div className="flex justify-center gap-2 mt-4">
                 {workImages.map((_, index) => (
                   <button
                     key={index}
                     onClick={() => handleDotClick(index)}
-                    className={`h-3 w-3 rounded-full transition-colors ${
+                    className={`h-2 w-2 md:h-3 md:w-3 rounded-full transition-colors ${
                       current === index ? 'bg-primary' : 'bg-gray-300 hover:bg-gray-400'
                     }`}
                     aria-label={`Go to slide ${index + 1}`}
