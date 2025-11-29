@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { Metadata } from 'next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { CheckCircle } from 'lucide-react';
+import { ArrowDown, CheckCircle, Flame } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import {
@@ -100,18 +100,61 @@ export default function AboutPage() {
         
         {/* Our Story */}
         <section className="mb-20">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <div className="space-y-4">
-              <p className="font-body text-lg text-foreground/80">
-                Immerse yourself in the succulence that defines our oranges - each one bursting with flavor and juiciness that embodies our unwavering commitment to quality. Our oranges don't just bring a burst of citrus; they radiate vibrancy, painted in the hues of sun-kissed excellence. But our commitment goes beyond the orchards; it's a journey of social responsibility. With every bite, you're supporting a community dedicated to sustainable practices and ethical farming. Join us in exploring not just the taste of excellence but the zest of a brighter, greener tomorrow!
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-primary">Our Story: From Helplessness to Empowerment</h2>
+            <p className="mt-2 text-xl font-headline">How we reclaimed our value, one orange at a time.</p>
+          </div>
+
+          <div className="space-y-12 font-body text-lg text-foreground/80 max-w-4xl mx-auto">
+            <div className="text-center">
+              <h3 className="font-bold text-xl mb-2">The Struggle of the Farmer</h3>
+              <p>
+                For decades, our ancestors grew some of the finest oranges in the region. But like many farmers, we had no direct link to the market. Agents controlled everything — the rates, the grading, and even the value of our hard work. They would tell us our oranges were "too small," the color "wasn’t right," or the grade was "low." For the same batch of fruit, we received three or four different prices, leaving farmers confused and helpless.
               </p>
-              <div className="flex gap-2">
-                <span className="font-bold text-primary">#CitrusParadise</span>
-                <span className="font-bold text-primary">#OrangeExcellence</span>
-                <span className="font-bold text-primary">#SustainableZest</span>
-              </div>
             </div>
-            <div></div>
+
+            <div className="text-center">
+              <h3 className="font-bold text-xl mb-2">The Hidden Market</h3>
+              <p>
+                What we didn’t know then — but slowly discovered — was how the agents secretly segregated and sold our oranges. The system was designed to keep the profits from those who earned it most.
+              </p>
+              <ul className="mt-4 space-y-2 list-none text-left inline-block">
+                  <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-3 mt-1 shrink-0" /><span><span className="font-bold">Highest-grade fruit</span> was exported outside India.</span></li>
+                  <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-3 mt-1 shrink-0" /><span><span className="font-bold">Medium-grade fruit</span> went to Kashmir, malls, and big markets.</span></li>
+                  <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-3 mt-1 shrink-0" /><span><span className="font-bold">Semi-medium fruit</span> was sent to local mandis.</span></li>
+                  <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-3 mt-1 shrink-0" /><span><span className="font-bold">Lowest-grade fruit</span> went for juice or peel powder.</span></li>
+              </ul>
+              <p className="mt-4">They even stored fruit in cold storage for a month and sold it later at double the price. From every grade, they made more profit than the farmers who worked under the sun all year.</p>
+            </div>
+
+            <div className="flex justify-center">
+                <ArrowDown className="h-12 w-12 text-primary/50 animate-bounce" />
+            </div>
+
+            <div className="text-center">
+              <h3 className="font-bold text-xl mb-2">The Turning Point: Knowledge is Power</h3>
+              <p>
+                As we studied the orange market across India, one truth became clear: farmers were losing because we didn’t have access to grading, sorting, processing, or storage. The knowledge was hidden from us.
+              </p>
+              <p className="mt-4">
+                But step by step, we learned. We learned how to grade. We learned how to sort. We learned how to wash and wax. We learned how the market <span className="font-bold italic">truly</span> works. And with this knowledge, we decided something powerful — <span className="font-bold">farmers must stand together.</span>
+              </p>
+            </div>
+            
+            <div className="text-center bg-primary/5 p-8 rounded-lg shadow-inner">
+                <Flame className="h-12 w-12 text-primary mx-auto mb-4"/>
+              <h3 className="font-bold text-2xl mb-2 text-primary">The Birth of a Movement</h3>
+              <p>
+                This realization led to the creation of <strong>RAUT FARMER PRODUCER COMPANY</strong>. A platform built by farmers, for farmers. A place where we process our own oranges, set fair prices, reduce wastage, and capture the profit that once disappeared into the pockets of middlemen. Today, many farmers who join us earn better, feel empowered, and finally receive the respect their hard work deserves.
+              </p>
+              <p className="mt-6 italic font-headline text-2xl">
+                "We are not just an orange company. We are a movement — a journey of learning, unity, and reclaiming our value."
+              </p>
+            </div>
+
+            <div className="text-center">
+                <p>This is who we are, how we started, and why we are here: to transform the lives of farmers, to bring transparency to the market, and to build a future where the hands that grow food finally prosper.</p>
+            </div>
           </div>
         </section>
 
@@ -191,3 +234,5 @@ export default function AboutPage() {
     </div>
   );
 }
+
+    
