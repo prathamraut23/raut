@@ -107,7 +107,8 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
       {
-        protocol: 'https',
+        protocol: 'https'
+        ,
         hostname: 'static.vecteezy.com',
         port: '',
         pathname: '/**',
@@ -212,6 +213,12 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'www.sammyfans.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'gumlet.assettype.com',
         port: '',
         pathname: '/**',
       }

@@ -29,17 +29,23 @@ const upcomingProjects = [
   {
     title: 'Cold Storage',
     description: 'Our upcoming cold storage project will help preserve the freshness and quality of oranges for longer periods. This facility will reduce post-harvest losses and ensure that farmers can supply premium fruit throughout the season.',
-    image: getImage('service-farming'),
+    image: "https://gumlet.assettype.com/down-to-earth/import/library/large/2022-11-14/0.85784900_1668431134_istock-1301368439.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+    imageAlt: "Cold storage facility for oranges",
+    imageHint: "cold storage"
   },
   {
     title: 'Advanced Sorting & Grading',
     description: 'Utilizing state-of-the-art technology, we sort and grade our oranges to meet the highest standards of quality and size.',
-    image: getImage('service-sorting'),
+    image: getImage('service-sorting')?.imageUrl,
+    imageAlt: getImage('service-sorting')?.description,
+    imageHint: getImage('service-sorting')?.imageHint
   },
   {
     title: 'Complete Ecosystem',
     description: 'From soil health to market access, we support our farmers at every step, creating a thriving agricultural ecosystem.',
-    image: getImage('service-ecosystem'),
+    image: getImage('service-ecosystem')?.imageUrl,
+    imageAlt: getImage('service-ecosystem')?.description,
+    imageHint: getImage('service-ecosystem')?.imageHint
   },
 ];
 
@@ -97,12 +103,12 @@ export default function ProjectsPage() {
                  <div className="relative h-48 w-full">
                     {project.image && (
                       <Image
-                        src={project.image.imageUrl}
-                        alt={project.image.description}
+                        src={project.image}
+                        alt={project.imageAlt || project.title}
                         fill
                         className="object-cover transition-transform duration-300 group-hover:scale-105"
                         sizes="(max-width: 768px) 100vw, 33vw"
-                        data-ai-hint={project.image.imageHint}
+                        data-ai-hint={project.imageHint}
                       />
                     )}
                   </div>
