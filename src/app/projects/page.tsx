@@ -79,8 +79,8 @@ const upcomingProjects = [
     images: [{ src: getImage('service-sorting')?.imageUrl, alt: getImage('service-sorting')?.description, imageHint: getImage('service-sorting')?.imageHint }],
   },
   {
-    title: 'Complete Ecosystem',
-    description: 'From soil health to market access, we support our farmers at every step, creating a thriving agricultural ecosystem.',
+    title: 'Orange Peel Powder (for cosmetic use)',
+    description: 'Our upcoming orange peel powder project will convert fresh orange peels into high-quality, cosmetic-grade powder rich in natural Vitamin C. This initiative will support value addition, reduce waste, and supply ingredients for skincare products like serums, masks, and sunscreens.',
     images: [{ src: getImage('service-ecosystem')?.imageUrl, alt: getImage('service-ecosystem')?.description, imageHint: getImage('service-ecosystem')?.imageHint }],
   },
 ];
