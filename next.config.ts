@@ -221,6 +221,24 @@ const nextConfig: NextConfig = {
         hostname: 'gumlet.assettype.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.novasogutma.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: '5.imimg.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'live.staticflickr.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },

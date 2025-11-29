@@ -1,4 +1,6 @@
 
+'use client';
+
 import Image from 'next/image';
 import { Metadata } from 'next';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -6,11 +8,20 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/componen
 import { Badge } from '@/components/ui/badge';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+  type CarouselApi,
+} from '@/components/ui/carousel';
+import { useEffect, useState } from 'react';
 
-export const metadata: Metadata = {
-  title: 'Our Projects | Raut Orange Ecosystem',
-  description: 'Discover the innovative projects and initiatives undertaken by Raut Farmer Producer Company to promote sustainable agriculture and community development.',
-};
+// export const metadata: Metadata = {
+//   title: 'Our Projects | Raut Orange Ecosystem',
+//   description: 'Discover the innovative projects and initiatives undertaken by Raut Farmer Producer Company to promote sustainable agriculture and community development.',
+// };
 
 const getImage = (id: string) => PlaceHolderImages.find(img => img.id === id);
 
@@ -29,25 +40,102 @@ const upcomingProjects = [
   {
     title: 'Cold Storage',
     description: 'Our upcoming cold storage project will help preserve the freshness and quality of oranges for longer periods. This facility will reduce post-harvest losses and ensure that farmers can supply premium fruit throughout the season.',
-    image: "https://gumlet.assettype.com/down-to-earth/import/library/large/2022-11-14/0.85784900_1668431134_istock-1301368439.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-    imageAlt: "Cold storage facility for oranges",
-    imageHint: "cold storage"
+    images: [
+        {
+            src: "https://www.novasogutma.com/upload/sayfa/s_57390/narenciye-soguk-oda-deposu-an2G.gif",
+            alt: "Animated diagram of a cold storage facility.",
+            imageHint: "cold storage diagram"
+        },
+        {
+            src: "https://5.imimg.com/data5/SELLER/Default/2023/4/303617560/HI/AG/KR/75313703/vegetable-cold-storage-plant.jpg",
+            alt: "Interior of a large, modern cold storage plant.",
+            imageHint: "cold storage interior"
+        },
+        {
+            src: "https://live.staticflickr.com/2487/3807239571_69feafd89a_b.jpg",
+            alt: "Oranges stored in crates inside a cold storage room.",
+            imageHint: "oranges cold storage"
+        }
+    ],
   },
   {
     title: 'Advanced Sorting & Grading',
     description: 'Utilizing state-of-the-art technology, we sort and grade our oranges to meet the highest standards of quality and size.',
-    image: getImage('service-sorting')?.imageUrl,
-    imageAlt: getImage('service-sorting')?.description,
-    imageHint: getImage('service-sorting')?.imageHint
+    images: [{ src: getImage('service-sorting')?.imageUrl, alt: getImage('service-sorting')?.description, imageHint: getImage('service-sorting')?.imageHint }],
   },
   {
     title: 'Complete Ecosystem',
     description: 'From soil health to market access, we support our farmers at every step, creating a thriving agricultural ecosystem.',
-    image: getImage('service-ecosystem')?.imageUrl,
-    imageAlt: getImage('service-ecosystem')?.description,
-    imageHint: getImage('service-ecosystem')?.imageHint
+    images: [{ src: getImage('service-ecosystem')?.imageUrl, alt: getImage('service-ecosystem')?.description, imageHint: getImage('service-ecosystem')?.imageHint }],
   },
 ];
+
+
+function UpcomingProjectCarousel({ project }: { project: typeof upcomingProjects[number] }) {
+  const [api, setApi] = useState<CarouselApi>()
+  const [current, setCurrent] = useState(0)
+
+  useEffect(() => {
+    if (!api) return
+    setCurrent(api.selectedScrollSnap())
+    api.on("select", () => setCurrent(api.selectedScrollSnap()))
+  }, [api])
+
+  const handleDotClick = (index: number) => {
+    api?.scrollTo(index);
+  };
+
+  return (
+    <Card className="flex flex-col overflow-hidden group">
+      <Carousel setApi={setApi} className="w-full" opts={{ loop: true }}>
+        <CarouselContent>
+          {project.images.map((image, index) => (
+            image?.src &&
+            <CarouselItem key={index}>
+              <div className="relative h-48 w-full">
+                <Image
+                  src={image.src}
+                  alt={image.alt || project.title}
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                  data-ai-hint={image.imageHint}
+                />
+              </div>
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+        {project.images.length > 1 && (
+            <>
+                <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 z-10 h-8 w-8 rounded-full bg-black/30 text-white hover:bg-black/50 border-none" />
+                <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 z-10 h-8 w-8 rounded-full bg-black/30 text-white hover:bg-black/50 border-none" />
+            </>
+        )}
+      </Carousel>
+       {project.images.length > 1 && (
+        <div className="flex justify-center gap-2 pt-4">
+            {project.images.map((_, index) => (
+            <button
+                key={index}
+                onClick={() => handleDotClick(index)}
+                className={`h-2 w-2 rounded-full transition-colors ${
+                current === index ? 'bg-primary' : 'bg-gray-300 hover:bg-gray-400'
+                }`}
+                aria-label={`Go to slide ${index + 1}`}
+            />
+            ))}
+        </div>
+      )}
+      <CardHeader>
+        <CardTitle className="font-headline text-2xl">{project.title}</CardTitle>
+      </CardHeader>
+      <CardContent className="font-body text-foreground/70 flex-grow">
+        {project.description}
+      </CardContent>
+    </Card>
+  );
+}
+
 
 export default function ProjectsPage() {
   return (
@@ -99,26 +187,7 @@ export default function ProjectsPage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {upcomingProjects.map((project) => (
-              <Card key={project.title} className="flex flex-col overflow-hidden group">
-                 <div className="relative h-48 w-full">
-                    {project.image && (
-                      <Image
-                        src={project.image}
-                        alt={project.imageAlt || project.title}
-                        fill
-                        className="object-cover transition-transform duration-300 group-hover:scale-105"
-                        sizes="(max-width: 768px) 100vw, 33vw"
-                        data-ai-hint={project.imageHint}
-                      />
-                    )}
-                  </div>
-                <CardHeader>
-                  <CardTitle className="font-headline text-2xl">{project.title}</CardTitle>
-                </CardHeader>
-                <CardContent className="font-body text-foreground/70 flex-grow">
-                  {project.description}
-                </CardContent>
-              </Card>
+              <UpcomingProjectCarousel key={project.title} project={project} />
             ))}
           </div>
         </section>
