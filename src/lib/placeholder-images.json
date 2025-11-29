@@ -51,7 +51,7 @@
     {
       "id": "team-member-3",
       "description": "Portrait of a young team member in the field.",
-      "imageUrl": "https://images.unsplash.com/photo-1666452165223-a369d541ff0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYXJtZXIlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQwNTM2NTd8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1666452165223-a369d541ff0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYXJtZXIlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQwNTM2NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "farmer portrait"
     },
     {
@@ -131,6 +131,12 @@
       "description": "Rows of healthy saplings in a nursery, ready for planting.",
       "imageUrl": "https://m.media-amazon.com/images/I/81l2TDBC+tL.jpg",
       "imageHint": "sapling nursery"
+    },
+    {
+      "id": "pulp-extraction",
+      "description": "Orange juice being poured into a glass.",
+      "imageUrl": "https://elanthalir.com/wp-content/uploads/2023/04/Orange-juice-2-scaled.jpg",
+      "imageHint": "orange juice"
     }
   ]
 }

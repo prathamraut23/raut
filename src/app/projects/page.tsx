@@ -74,9 +74,9 @@ const upcomingProjects = [
     ],
   },
   {
-    title: 'Advanced Sorting & Grading',
-    description: 'Utilizing state-of-the-art technology, we sort and grade our oranges to meet the highest standards of quality and size.',
-    images: [{ src: getImage('service-sorting')?.imageUrl, alt: getImage('service-sorting')?.description, imageHint: getImage('service-sorting')?.imageHint }],
+    title: 'Pulp Extraction',
+    description: 'Our upcoming pulp extraction project will transform fresh oranges into high-quality pulp for juice and beverage processing. This initiative will increase value addition, reduce wastage, and create new market opportunities for farmers by supplying premium raw material to juice manufacturers',
+    images: [{ src: getImage('pulp-extraction')?.imageUrl, alt: getImage('pulp-extraction')?.description, imageHint: getImage('pulp-extraction')?.imageHint }],
   },
   {
     title: 'Orange Peel Powder',
