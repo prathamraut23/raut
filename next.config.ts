@@ -276,6 +276,12 @@ const nextConfig: NextConfig = {
         hostname: 'organicobeverages.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.juicemakingmachine.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
