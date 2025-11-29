@@ -234,6 +234,30 @@ const nextConfig: NextConfig = {
         hostname: 'live.staticflickr.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.herzindagi.info',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.duurzaamnieuws.nl',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'eu-images.contentstack.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'investinternational.nl',
+        port: '',
+        pathname: '/**',
       }
     ],
   },

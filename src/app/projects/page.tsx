@@ -82,7 +82,14 @@ const upcomingProjects = [
     title: 'Orange Peel Powder',
     subtitle: '(for cosmetic use)',
     description: 'Our upcoming orange peel powder project will convert fresh orange peels into high-quality, cosmetic-grade powder rich in natural Vitamin C. This initiative will support value addition, reduce waste, and supply ingredients for skincare products like serums, masks, and sunscreens.',
-    images: [{ src: getImage('service-ecosystem')?.imageUrl, alt: getImage('service-ecosystem')?.description, imageHint: getImage('service-ecosystem')?.imageHint }],
+    images: [
+      { src: 'https://images.herzindagi.info/image/2019/Oct/orange-peel-face-mask.jpg', alt: 'Orange peel face mask in a bowl', imageHint: 'orange peel mask' },
+      { src: 'https://i.ytimg.com/vi/5Hu7b8KoYJM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB3xi_wMPiqPn-px5R077X3fpXNmw', alt: 'Orange peel powder being made', imageHint: 'orange peel powder' },
+      { src: 'https://www.duurzaamnieuws.nl/wp-content/uploads/2024/08/peelpioneers.jpg', alt: 'Industrial processing of citrus peels', imageHint: 'citrus peel processing' },
+      { src: 'https://eu-images.contentstack.com/v3/assets/bltb9ead2d4140390e0/blt460dc5beab1bf42c/6692ac26497604551a8edbe7/PeelPioneers_20transforms_20citrus_20peel_20byproducts_20into_20functional_20ingredients_201_20sent_20from_20PeelPioneers.png', alt: 'Functional ingredients from citrus peel', imageHint: 'citrus ingredients' },
+      { src: 'https://i.ytimg.com/vi/aDCgRMXK8-0/maxresdefault.jpg', alt: 'Cosmetic products with orange ingredients', imageHint: 'orange cosmetics' },
+      { src: 'https://investinternational.nl/wp-content/uploads/2024/07/Invest-International-Peel-Pioneers-6-scaled.jpg', alt: 'Peel Pioneers facility', imageHint: 'pioneers facility' },
+    ],
   },
 ];
 
