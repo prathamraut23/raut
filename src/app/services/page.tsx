@@ -18,10 +18,10 @@ import {
 } from '@/components/ui/carousel';
 import { useEffect, useState } from 'react';
 
-export const metadata: Metadata = {
-  title: 'Our Services | Raut Orange Ecosystem',
-  description: 'Explore the comprehensive services offered by Raut Farmer Producer Company, from sustainable orange farming and advanced sorting to complete ecosystem support for our farmers.',
-};
+// export const metadata: Metadata = {
+//   title: 'Our Services | Raut Orange Ecosystem',
+//   description: 'Explore the comprehensive services offered by Raut Farmer Producer Company, from sustainable orange farming and advanced sorting to complete ecosystem support for our farmers.',
+// };
 
 const getImage = (id: string) => PlaceHolderImages.find(img => img.id === id);
 
