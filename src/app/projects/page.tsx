@@ -76,7 +76,14 @@ const upcomingProjects = [
   {
     title: 'Pulp Extraction',
     description: 'Our upcoming pulp extraction project will transform fresh oranges into high-quality pulp for juice and beverage processing. This initiative will increase value addition, reduce wastage, and create new market opportunities for farmers by supplying premium raw material to juice manufacturers',
-    images: [{ src: getImage('pulp-extraction')?.imageUrl, alt: getImage('pulp-extraction')?.description, imageHint: getImage('pulp-extraction')?.imageHint }],
+    images: [
+        { src: 'https://5.imimg.com/data5/SELLER/Default/2024/9/448845617/CL/MN/XJ/199588357/fruit-juice.jpg', alt: 'Fruit juice processing', imageHint: 'juice processing' },
+        { src: 'https://www.ticomachine.com/uploads/allimg/orange-juice-extraction.jpg', alt: 'Orange juice extraction machine', imageHint: 'juice extraction' },
+        { src: 'https://image.made-in-china.com/2f0j00KyIaHROgHpbW/Orange-Juice-Machine-Orange-Juice-Processing-Machines.webp', alt: 'Orange juice processing machines', imageHint: 'juice machines' },
+        { src: 'https://i.ytimg.com/vi/bnf3f64fwdA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDaT9QZwVjZcCKxYDXEgvUNOPRsLg', alt: 'Orange juice production line', imageHint: 'juice production' },
+        { src: 'https://organicobeverages.com/wp-content/uploads/2018/08/shutterstock_650425732.jpg', alt: 'Fresh orange juice in glasses', imageHint: 'orange juice glasses' },
+        { src: 'https://i.ytimg.com/vi/tMmDe0OYT_Q/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB3N-AIr3snhoh7Dj-a2MnokicB7A', alt: 'Commercial orange juicer', imageHint: 'commercial juicer' },
+    ],
   },
   {
     title: 'Orange Peel Powder',

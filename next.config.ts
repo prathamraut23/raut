@@ -258,6 +258,24 @@ const nextConfig: NextConfig = {
         hostname: 'investinternational.nl',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.ticomachine.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'image.made-in-china.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'organicobeverages.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
