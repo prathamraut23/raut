@@ -79,7 +79,8 @@ const upcomingProjects = [
     images: [{ src: getImage('service-sorting')?.imageUrl, alt: getImage('service-sorting')?.description, imageHint: getImage('service-sorting')?.imageHint }],
   },
   {
-    title: 'Orange Peel Powder (for cosmetic use)',
+    title: 'Orange Peel Powder',
+    subtitle: '(for cosmetic use)',
     description: 'Our upcoming orange peel powder project will convert fresh orange peels into high-quality, cosmetic-grade powder rich in natural Vitamin C. This initiative will support value addition, reduce waste, and supply ingredients for skincare products like serums, masks, and sunscreens.',
     images: [{ src: getImage('service-ecosystem')?.imageUrl, alt: getImage('service-ecosystem')?.description, imageHint: getImage('service-ecosystem')?.imageHint }],
   },
@@ -142,7 +143,10 @@ function UpcomingProjectCarousel({ project }: { project: typeof upcomingProjects
         </div>
       )}
       <CardHeader>
-        <CardTitle className="font-headline text-2xl">{project.title}</CardTitle>
+        <CardTitle className="font-headline text-2xl">
+          {project.title}
+          {project.subtitle && <span className="font-normal text-lg ml-2">{project.subtitle}</span>}
+        </CardTitle>
       </CardHeader>
       <CardContent className="font-body text-foreground/70 flex-grow">
         {project.description}
