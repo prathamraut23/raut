@@ -10,7 +10,6 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   devIndicators: {
-    buildActivity: false,
     allowedDevOrigins: [
       'https://6000-firebase-studio-1764141413393.cluster-c36dgv2kibakqwbbbsgmia3fny.cloudworkstations.dev',
     ],
