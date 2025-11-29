@@ -175,7 +175,7 @@ export default function ProjectsPage() {
     <div>
       <section 
         className="relative py-20 text-center text-white bg-cover bg-center"
-        style={{ backgroundImage: "url('https://www.juicemakingmachine.com/uploads/allimg/orange-essential-oil-extracting.jpg')" }}
+        style={{ backgroundImage: "url('https://thumbs.dreamstime.com/b/orange-juice-production-line-close-up-view-oranges-being-washed-processed-conveyor-belt-modern-juice-factory-372705504.jpg')" }}
       >
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
