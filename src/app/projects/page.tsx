@@ -60,6 +60,16 @@ const upcomingProjects = [
             src: "https://gumlet.assettype.com/down-to-earth/import/library/large/2022-11-14/0.85784900_1668431134_istock-1301368439.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
             alt: "Oranges being stored in a modern cold storage facility.",
             imageHint: "cold storage oranges"
+        },
+        {
+            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQBdrcP8ArK3DtHFqZes5xVTopm5L4V5kUUioogoOvvGomnE3SJX4rmfi25m5T7GVnBRs&usqp=CAU",
+            alt: "Crates of oranges in cold storage.",
+            imageHint: "oranges crates"
+        },
+        {
+            src: "https://5.imimg.com/data5/UE/YF/MP/SELLER-1617695/cold-storage-for-mango-pulp.jpg",
+            alt: "Inside of a cold storage facility with crates.",
+            imageHint: "cold storage crates"
         }
     ],
   },
