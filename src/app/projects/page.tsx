@@ -173,10 +173,14 @@ function UpcomingProjectCarousel({ project }: { project: typeof upcomingProjects
 export default function ProjectsPage() {
   return (
     <div>
-      <section className="bg-secondary py-20 text-center">
-        <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section 
+        className="relative py-20 text-center text-white bg-cover bg-center"
+        style={{ backgroundImage: "url('https://i.ytimg.com/vi/pVwD8ByGLc8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB94G0olceTMOifbJlPNVZfZcuvLw')" }}
+      >
+        <div className="absolute inset-0 bg-black/50" />
+        <div className="relative z-10 container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl tracking-tighter md:text-6xl font-bold text-primary">Our Projects</h1>
-            <p className="mt-4 max-w-3xl mx-auto text-lg font-body text-foreground/80">
+            <p className="mt-4 max-w-3xl mx-auto text-lg font-body text-white/90">
                 Showcasing our commitment to innovation, sustainability, and community empowerment through tangible action.
             </p>
         </div>
