@@ -1,3 +1,4 @@
+
 'use client';
 
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -8,7 +9,7 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
-import { handleFormSubmission } from '@/app/contact/actions';
+import { handleFormSubmission } from './actions';
 import { useState, useTransition } from 'react';
 import { Loader2 } from 'lucide-react';
 import { useDictionary } from '@/context/DictionaryProvider';
