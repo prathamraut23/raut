@@ -62,7 +62,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="text-xl font-headline">पत्ता</h3>
-                  <p className="text-foreground/70 font-body">वांजा ता - मानग्रुळपीर <br/> जिल्हा - वाशिम <br/> राज्य - महाराष्ट्र</p>
+                  <p className="text-foreground/70 font-body">वनोजा - ४४४४०२, ता. मंगरूळपीर, <br/> जिल्हा. वाशिम, राज्य. महाराष्ट्र.</p>
                 </div>
               </div>
             </div>

@@ -47,7 +47,7 @@ export default function Footer() {
             <div className="mt-4 space-y-2 text-sm text-foreground/70">
                 <p>ईमेल: rautwanojafpc@gmail.com</p>
                 <p>फोन: +91 9586351548</p>
-                <p>पत्ता: वांजा ता - मानग्रुळपीर जिल्हा - वाशिम राज्य - महाराष्ट्र</p>
+                <p>पत्ता: वनोजा - ४४४४०२, ता. मंगरूळपीर, जिल्हा. वाशिम, राज्य. महाराष्ट्र.</p>
             </div>
             <div className="mt-4 flex space-x-4">
               {socialLinks.map((link, index) => (
