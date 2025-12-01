@@ -1,14 +1,8 @@
-import { Citrus, Facebook, Instagram, Linkedin, Twitter } from 'lucide-react';
+import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react';
 import Link from 'next/link';
 import { Logo } from './Logo';
-
-const footerNavs = [
-  { href: '/', name: 'मुख्यपृष्ठ' },
-  { href: '/about', name: 'आमच्याबद्दल' },
-  { href: '/services', name: 'सेवा' },
-  { href: '/projects', name: 'प्रकल्प' },
-  { href: '/contact', name: 'संपर्क' },
-];
+import { getDictionary } from '@/lib/i18n/get-dictionary';
+import { Locale } from '@/lib/i18n/i18n-config';
 
 const socialLinks = [
   { icon: <Facebook className="h-5 w-5" />, href: '#' },
@@ -17,7 +11,17 @@ const socialLinks = [
   { icon: <Linkedin className="h-5 w-5" />, href: '#' },
 ]
 
-export default function Footer() {
+export default async function Footer({ lang }: { lang: Locale }) {
+  const dictionary = await getDictionary(lang);
+
+  const footerNavs = [
+    { href: `/${lang}/`, name: dictionary.footer.home },
+    { href: `/${lang}/about`, name: dictionary.footer.about },
+    { href: `/${lang}/services`, name: dictionary.footer.services },
+    { href: `/${lang}/projects`, name: dictionary.footer.projects },
+    { href: `/${lang}/contact`, name: dictionary.footer.contact },
+  ];
+
   return (
     <footer className="border-t bg-secondary/50">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -25,12 +29,12 @@ export default function Footer() {
           <div className="space-y-4">
             <Logo />
             <p className="max-w-xs text-sm text-foreground/70">
-              आमच्या शेतातून तुमच्या कुटुंबापर्यंत उत्कृष्टता वाढवणे, गुणवत्ता आणि टिकाऊपणा सुनिश्चित करणे.
+              {dictionary.footer.tagline}
             </p>
           </div>
           
           <div className="md:mx-auto">
-            <h3 className="text-lg font-headline tracking-wider text-foreground">जलद दुवे</h3>
+            <h3 className="text-lg font-headline tracking-wider text-foreground">{dictionary.footer.quickLinks}</h3>
             <ul className="mt-4 space-y-2">
               {footerNavs.map((item) => (
                 <li key={item.name}>
@@ -43,16 +47,16 @@ export default function Footer() {
           </div>
 
           <div className="md:mx-auto">
-             <h3 className="text-lg font-headline tracking-wider text-foreground">आमच्याशी संपर्क साधा</h3>
+             <h3 className="text-lg font-headline tracking-wider text-foreground">{dictionary.footer.contactUs}</h3>
             <div className="mt-4 space-y-2 text-sm text-foreground/70">
-                <p>ईमेल: rautwanojafpc@gmail.com</p>
-                <p>फोन: +91 9586351548</p>
-                <p>पत्ता: वनोजा - ४४४४०२, ता. मंगरूळपीर, जिल्हा. वाशिम, राज्य. महाराष्ट्र.</p>
+                <p>{dictionary.footer.email}: rautwanojafpc@gmail.com</p>
+                <p>{dictionary.footer.phone}: +91 9586351548</p>
+                <p>{dictionary.footer.address}: {dictionary.footer.addressLine}</p>
             </div>
             <div className="mt-4 flex space-x-4">
               {socialLinks.map((link, index) => (
                 <a key={index} href={link.href} className="text-foreground/70 hover:text-primary">
-                  <span className="sr-only">सोशल मीडिया लिंक</span>
+                  <span className="sr-only">Social media link</span>
                   {link.icon}
                 </a>
               ))}
@@ -60,7 +64,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t py-6 text-center text-sm text-foreground/60">
-          <p>&copy; {new Date().getFullYear()} राऊत शेतकरी उत्पादक कंपनी. सर्व हक्क राखीव.</p>
+          <p>&copy; {new Date().getFullYear()} {dictionary.footer.copyright}</p>
         </div>
       </div>
     </footer>
