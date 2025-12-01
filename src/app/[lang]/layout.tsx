@@ -24,22 +24,13 @@ export default async function RootLayout({
 }>) {
   const dictionary = await getDictionary(params.lang);
   return (
-    <html lang={params.lang} className="scroll-smooth">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@700&family=Tangerine:wght@700&display=swap" rel="stylesheet" />
-      </head>
-      <body className="font-body antialiased">
-        <DictionaryProvider dictionary={dictionary}>
-          <div className="flex min-h-screen flex-col">
-            <Header />
-            <main className="flex-grow">{children}</main>
-            <Footer lang={params.lang} />
-          </div>
-          <Toaster />
-        </DictionaryProvider>
-      </body>
-    </html>
+    <DictionaryProvider dictionary={dictionary}>
+      <div className="flex min-h-screen flex-col font-body antialiased">
+        <Header />
+        <main className="flex-grow">{children}</main>
+        <Footer lang={params.lang} />
+      </div>
+      <Toaster />
+    </DictionaryProvider>
   );
 }
