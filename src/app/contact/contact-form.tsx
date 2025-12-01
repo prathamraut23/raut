@@ -13,10 +13,10 @@ import { useState, useTransition } from 'react';
 import { Loader2 } from 'lucide-react';
 
 const formSchema = z.object({
-  name: z.string().min(2, { message: 'Name must be at least 2 characters.' }),
-  mobile: z.string().regex(/^[0-9]{10}$/, { message: 'Please enter a valid 10-digit mobile number.' }),
-  email: z.string().email({ message: 'Please enter a valid email address.' }),
-  message: z.string().min(10, { message: 'Message must be at least 10 characters.' }).max(500, { message: 'Message cannot exceed 500 characters.' }),
+  name: z.string().min(2, { message: 'नाव किमान २ अक्षरी असावे.' }),
+  mobile: z.string().regex(/^[0-9]{10}$/, { message: 'कृपया वैध १०-अंकी मोबाईल नंबर प्रविष्ट करा.' }),
+  email: z.string().email({ message: 'कृपया वैध ईमेल पत्ता प्रविष्ट करा.' }),
+  message: z.string().min(10, { message: 'संदेश किमान १० अक्षरी असावा.' }).max(500, { message: 'संदेश ५०० अक्षरांपेक्षा जास्त असू शकत नाही.' }),
 });
 
 type FormData = z.infer<typeof formSchema>;
@@ -41,15 +41,15 @@ export default function ContactForm() {
 
       if (result.success) {
         toast({
-          title: 'Message Sent!',
-          description: 'Thank you for reaching out. We will get back to you shortly.',
+          title: 'संदेश पाठवला!',
+          description: 'संपर्क साधल्याबद्दल धन्यवाद. आम्ही लवकरच तुमच्याशी संपर्क साधू.',
         });
         form.reset();
       } else {
         toast({
           variant: 'destructive',
-          title: 'Something went wrong.',
-          description: result.error || 'There was an error sending your message. Please try again.',
+          title: 'काहीतरी चूक झाली.',
+          description: result.error || 'तुमचा संदेश पाठवताना त्रुटी आली. कृपया पुन्हा प्रयत्न करा.',
         });
       }
     });
@@ -58,15 +58,15 @@ export default function ContactForm() {
   return (
     <Form {...form}>
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
-        <h3 className="text-2xl font-headline text-primary">Send us a Message</h3>
+        <h3 className="text-2xl font-headline text-primary">आम्हाला संदेश पाठवा</h3>
         <FormField
           control={form.control}
           name="name"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Full Name</FormLabel>
+              <FormLabel>पूर्ण नाव</FormLabel>
               <FormControl>
-                <Input placeholder="John Doe" {...field} />
+                <Input placeholder="तुमचे नाव" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -78,9 +78,9 @@ export default function ContactForm() {
             name="mobile"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Mobile Number</FormLabel>
+                <FormLabel>मोबाइल नंबर</FormLabel>
                 <FormControl>
-                  <Input placeholder="9876543210" {...field} />
+                  <Input placeholder="९८७६५४३२१०" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -91,9 +91,9 @@ export default function ContactForm() {
             name="email"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Email Address</FormLabel>
+                <FormLabel>ईमेल पत्ता</FormLabel>
                 <FormControl>
-                  <Input placeholder="john.doe@example.com" {...field} />
+                  <Input placeholder="tumcha.email@example.com" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -105,9 +105,9 @@ export default function ContactForm() {
           name="message"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Your Message</FormLabel>
+              <FormLabel>तुमचा संदेश</FormLabel>
               <FormControl>
-                <Textarea placeholder="Tell us how we can help..." className="min-h-[120px]" {...field} />
+                <Textarea placeholder="तुम्ही आम्हाला कशी मदत करू शकता ते सांगा..." className="min-h-[120px]" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -117,10 +117,10 @@ export default function ContactForm() {
           {isPending ? (
             <>
               <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-              Sending...
+              पाठवत आहे...
             </>
           ) : (
-            'Send Message'
+            'संदेश पाठवा'
           )}
         </Button>
       </form>

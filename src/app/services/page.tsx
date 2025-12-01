@@ -26,18 +26,18 @@ const getImage = (id: string) => PlaceHolderImages.find(img => img.id === id);
 
 const services = [
   {
-    title: 'Maximized Farmer Income',
-    description: 'We believe the strength of agriculture depends on the prosperity of farmers. Through accurate grading and efficient marketing, we help farmers get the best value for their produce. This improves their income, strengthens their confidence, and supports long-term sustainable farming.',
+    title: 'शेतकऱ्यांचे उत्पन्न वाढवणे',
+    description: 'शेतीची ताकद शेतकऱ्यांच्या समृद्धीवर अवलंबून असते असे आम्ही मानतो. अचूक प्रतवारी आणि प्रभावी विपणनाद्वारे, आम्ही शेतकऱ्यांना त्यांच्या उत्पादनासाठी सर्वोत्तम मूल्य मिळविण्यात मदत करतो. यामुळे त्यांचे उत्पन्न सुधारते, त्यांचा आत्मविश्वास वाढतो आणि दीर्घकालीन शाश्वत शेतीला पाठिंबा मिळतो.',
     image: getImage('service-detail-farming')
   },
   {
-    title: 'Digital Enablement of Farmers',
-    description: 'We empower farmers with fast digital payments that improve cash flow and help build credit histories for better financial access. We also use AI tools to monitor orange crops, predict early diseases, and provide timely recommendations, helping farmers reduce losses and improve productivity.',
+    title: 'शेतकऱ्यांचे डिजिटल सक्षमीकरण',
+    description: 'आम्ही शेतकऱ्यांना जलद डिजिटल पेमेंटसह सक्षम करतो ज्यामुळे रोख प्रवाह सुधारतो आणि उत्तम आर्थिक सुविधेसाठी क्रेडिट इतिहास तयार करण्यात मदत होते. आम्ही संत्रा पिकांवर लक्ष ठेवण्यासाठी, लवकर रोगांचे निदान करण्यासाठी आणि वेळेवर शिफारसी देण्यासाठी AI साधनांचा वापर करतो, ज्यामुळे शेतकऱ्यांना नुकसान कमी करण्यास आणि उत्पादकता सुधारण्यास मदत होते.',
     image: getImage('service-detail-sorting')
   },
   {
-    title: 'Strengthening Agri-Ecosystem',
-    description: 'We aim to build a strong and sustainable agricultural ecosystem by ensuring fair pricing, quality produce, and expert advisory support. We encourage responsible farming practices and better resource use, helping farmers grow steadily while strengthening the overall agri-community.',
+    title: 'कृषी-परिसंस्थेला बळकट करणे',
+    description: 'आम्ही योग्य किंमत, दर्जेदार उत्पादन आणि तज्ञ सल्लागार समर्थनाची खात्री करून एक मजबूत आणि शाश्वत कृषी परिसंस्था तयार करण्याचे ध्येय ठेवतो. आम्ही जबाबदार शेती पद्धती आणि संसाधनांचा अधिक चांगला वापर करण्यास प्रोत्साहित करतो, ज्यामुळे शेतकऱ्यांना स्थिरपणे वाढण्यास मदत होते आणि संपूर्ण कृषी-समुदायाला बळकटी मिळते.',
     image: getImage('service-detail-support')
   },
 ];
@@ -93,9 +93,9 @@ export default function ServicesPage() {
       >
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="relative z-10 container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <h1 className="text-4xl tracking-tighter md:text-6xl font-bold">Our Services</h1>
+            <h1 className="text-4xl tracking-tighter md:text-6xl font-bold">आमच्या सेवा</h1>
             <p className="mt-4 max-w-3xl mx-auto text-lg font-body text-white/90">
-                Providing end-to-end solutions to build a resilient and prosperous agricultural community.
+                एक लवचिक आणि समृद्ध कृषी समुदाय तयार करण्यासाठी एंड-टू-एंड उपाय प्रदान करणे.
             </p>
         </div>
       </section>
@@ -105,8 +105,8 @@ export default function ServicesPage() {
         {/* About Work Section */}
         <section className="mb-20">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary">About Our Work</h2>
-            <p className="mt-2 text-lg md:text-xl font-headline">Grading and Sorting</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-primary">आमच्या कामाबद्दल</h2>
+            <p className="mt-2 text-lg md:text-xl font-headline">प्रतवारी आणि वर्गीकरण</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
@@ -137,29 +137,29 @@ export default function ServicesPage() {
                     className={`h-2 w-2 md:h-3 md:w-3 rounded-full transition-colors ${
                       current === index ? 'bg-primary' : 'bg-gray-300 hover:bg-gray-400'
                     }`}
-                    aria-label={`Go to slide ${index + 1}`}
+                    aria-label={`स्लाइड ${index + 1} वर जा`}
                   />
                 ))}
               </div>
             </div>
             <div className="font-body text-lg text-foreground/80 space-y-4">
               <p>
-                At RAUT FARMER PRODUCER COMPANY, our grading and sorting process is carried out with a mix of advanced technology and skilled human supervision. Optical sensors and automated machinery examine each orange for size, color, texture, weight, and external quality to ensure accuracy and uniformity. Our trained team further performs manual checks to remove any imperfect fruits and maintain consistent standards.
+                राऊत शेतकरी उत्पादक कंपनीमध्ये, आमची प्रतवारी आणि वर्गीकरण प्रक्रिया प्रगत तंत्रज्ञान आणि कुशल मानवी पर्यवेक्षणाच्या मिश्रणाने केली जाते. ऑप्टिकल सेन्सर आणि स्वयंचलित यंत्रसामग्री प्रत्येक संत्र्याची आकार, रंग, पोत, वजन आणि बाह्य गुणवत्तेसाठी तपासणी करतात जेणेकरून अचूकता आणि एकसमानता सुनिश्चित होईल. आमची प्रशिक्षित टीम कोणत्याही अपूर्ण फळांना काढून टाकण्यासाठी आणि सातत्यपूर्ण मानके राखण्यासाठी पुढील मॅन्युअल तपासणी करते.
               </p>
               <p>
-                After grading, the oranges go through a careful washing and waxing process. This helps remove dust, enhances the natural shine of the fruit, improves shelf life, and keeps the oranges fresh during transport. Once prepared, each batch is packed using high-quality materials that protect the fruit and enhance its visual appeal.
+                प्रतवारीनंतर, संत्री काळजीपूर्वक धुण्याची आणि वॅक्सिंगची प्रक्रिया पार पाडतात. यामुळे धूळ काढून टाकण्यास, फळाची नैसर्गिक चमक वाढविण्यात, शेल्फ लाइफ सुधारण्यास आणि वाहतुकीदरम्यान संत्री ताजी ठेवण्यास मदत होते. तयार झाल्यावर, प्रत्येक तुकडी उच्च-गुणवत्तेच्या सामग्रीचा वापर करून पॅक केली जाते जी फळाचे संरक्षण करते आणि त्याचे दृश्य आकर्षण वाढवते.
               </p>
               <p>
-                Every step follows strict hygiene and quality control guidelines, allowing us to deliver clean, fresh, and premium-grade oranges ready for markets, retailers, and long-distance supply.
+                प्रत्येक टप्पा कठोर स्वच्छता आणि गुणवत्ता नियंत्रण मार्गदर्शक तत्त्वांचे पालन करतो, ज्यामुळे आम्हाला स्वच्छ, ताजे आणि प्रीमियम-ग्रेड संत्री बाजारात, किरकोळ विक्रेत्यांना आणि लांब पल्ल्याच्या पुरवठ्यासाठी तयार करता येतात.
               </p>
             </div>
           </div>
         </section>
 
         <section className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground">For Farmers</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground">शेतकऱ्यांसाठी</h2>
             <p className="mt-4 max-w-3xl mx-auto text-lg font-body text-foreground/80">
-                At RAUT FARMER PRODUCER COMPANY, we help farmers adopt innovative, sustainable techniques for long-term success, making efficient use of resources to ensure a resilient future in agriculture.
+                राऊत शेतकरी उत्पादक कंपनीमध्ये, आम्ही शेतकऱ्यांना दीर्घकालीन यशासाठी नाविन्यपूर्ण, शाश्वत तंत्रे अवलंबण्यास मदत करतो, संसाधनांचा प्रभावी वापर करून शेतीत एक लवचिक भविष्य सुनिश्चित करतो.
             </p>
         </section>
 
@@ -190,12 +190,12 @@ export default function ServicesPage() {
         
         {/* CTA */}
         <section className="text-center mt-24 bg-primary/10 py-16 rounded-lg">
-            <h2 className="text-3xl font-bold text-primary">Ready to Grow With Us?</h2>
+            <h2 className="text-3xl font-bold text-primary">आमच्यासोबत वाढण्यास तयार आहात?</h2>
             <p className="mt-4 max-w-2xl mx-auto text-lg font-body text-foreground/80">
-                Connect with our team to learn more about how our services can benefit you.
+                आमच्या सेवा तुम्हाला कसा फायदा देऊ शकतात याबद्दल अधिक जाणून घेण्यासाठी आमच्या टीमशी संपर्क साधा.
             </p>
             <Button asChild size="lg" className="mt-8">
-                <Link href="/contact">Contact Our Team</Link>
+                <Link href="/contact">आमच्या टीमशी संपर्क साधा</Link>
             </Button>
         </section>
 

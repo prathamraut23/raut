@@ -5,8 +5,8 @@ import Header from '@/components/site/Header';
 import Footer from '@/components/site/Footer';
 
 export const metadata: Metadata = {
-  title: 'Raut Farmer Producer Company',
-  description: 'Website for Raut Farmer Producer Company',
+  title: 'राऊत शेतकरी उत्पादक कंपनी',
+  description: 'राऊत शेतकरी उत्पादक कंपनीची वेबसाइट',
   icons: {
     icon: 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍊</text></svg>',
   },
@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="mr" className="scroll-smooth">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

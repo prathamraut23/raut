@@ -91,8 +91,8 @@ export default function AboutPage() {
         )}
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-white">
-          <h1 className="text-4xl tracking-tighter md:text-6xl font-bold">About Us</h1>
-          <p className="mt-2 max-w-3xl text-base md:text-lg font-body px-4">Step into a citrus paradise with RAUT FARMER PRODUCER COMPANY, where the tantalizing world of premium oranges awaits your senses.</p>
+          <h1 className="text-4xl tracking-tighter md:text-6xl font-bold">आमच्याबद्दल</h1>
+          <p className="mt-2 max-w-3xl text-base md:text-lg font-body px-4">राऊत शेतकरी उत्पादक कंपनीसोबत लिंबूवर्गीय फळांच्या स्वर्गात पाऊल ठेवा, जिथे उत्कृष्ट संत्र्यांचे मनमोहक जग तुमच्या संवेदनांची प्रतीक्षा करत आहे.</p>
         </div>
       </section>
 
@@ -101,30 +101,30 @@ export default function AboutPage() {
         {/* Our Story */}
         <section className="mb-20">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary">Our Story: From Helplessness to Empowerment</h2>
-            <p className="mt-2 text-lg md:text-xl font-headline">How we reclaimed our value, one orange at a time.</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-primary">आमची कहाणी: असहाय्यतेकडून सशक्तीकरणाकडे</h2>
+            <p className="mt-2 text-lg md:text-xl font-headline">आम्ही आमचे मूल्य कसे परत मिळवले, एका वेळी एक संत्रा.</p>
           </div>
 
           <div className="space-y-12 font-body text-lg text-foreground/80 max-w-4xl mx-auto">
             <div className="text-center">
-              <h3 className="font-bold text-xl mb-2">The Struggle of the Farmer</h3>
+              <h3 className="font-bold text-xl mb-2">शेतकऱ्याचा संघर्ष</h3>
               <p>
-                For decades, our ancestors grew some of the finest oranges in the region. But like many farmers, we had no direct link to the market. Agents controlled everything — the rates, the grading, and even the value of our hard work. They would tell us our oranges were "too small," the color "wasn’t right," or the grade was "low." For the same batch of fruit, we received three or four different prices, leaving farmers confused and helpless.
+                दशकांपासून, आमचे पूर्वज या प्रदेशातील काही उत्कृष्ट संत्री पिकवत होते. पण अनेक शेतकऱ्यांप्रमाणेच, आमचा बाजाराशी थेट संबंध नव्हता. एजंट सर्व काही नियंत्रित करत होते - दर, प्रतवारी आणि आमच्या कष्टाचे मूल्यसुद्धा. ते आम्हाला सांगायचे की आमची संत्री "खूप लहान" आहेत, रंग "बरोबर नाही" किंवा प्रत "कमी" आहे. फळांच्या एकाच तुकडीसाठी, आम्हाला तीन-चार वेगवेगळे भाव मिळायचे, ज्यामुळे शेतकरी गोंधळून जायचे आणि असहाय्य व्हायचे.
               </p>
             </div>
 
             <div className="text-center">
-              <h3 className="font-bold text-xl mb-2">The Hidden Market</h3>
+              <h3 className="font-bold text-xl mb-2">लपलेला बाजार</h3>
               <p>
-                What we didn’t know then — but slowly discovered — was how the agents secretly segregated and sold our oranges. The system was designed to keep the profits from those who earned it most.
+                तेव्हा आम्हाला जे माहीत नव्हते - पण हळूहळू कळले - ते म्हणजे एजंट गुप्तपणे आमची संत्री वेगळी करून कशी विकायचे. ही व्यवस्था अशा प्रकारे तयार केली होती की ज्यांनी सर्वात जास्त कमाई केली होती त्यांना नफा मिळू नये.
               </p>
               <ul className="mt-4 space-y-2 list-none text-left inline-block">
-                  <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-3 mt-1 shrink-0" /><span><span className="font-bold">Highest-grade fruit</span> was exported outside India.</span></li>
-                  <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-3 mt-1 shrink-0" /><span><span className="font-bold">Medium-grade fruit</span> went to Kashmir, malls, and big markets.</span></li>
-                  <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-3 mt-1 shrink-0" /><span><span className="font-bold">Semi-medium fruit</span> was sent to local mandis.</span></li>
-                  <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-3 mt-1 shrink-0" /><span><span className="font-bold">Lowest-grade fruit</span> went for juice or peel powder.</span></li>
+                  <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-3 mt-1 shrink-0" /><span><span className="font-bold">उच्च प्रतीची फळे</span> भारताबाहेर निर्यात केली जात होती.</span></li>
+                  <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-3 mt-1 shrink-0" /><span><span className="font-bold">मध्यम प्रतीची फळे</span> काश्मीर, मॉल्स आणि मोठ्या बाजारपेठांमध्ये जात होती.</span></li>
+                  <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-3 mt-1 shrink-0" /><span><span className="font-bold">अर्ध-मध्यम फळे</span> स्थानिक मंडईत पाठवली जात होती.</span></li>
+                  <li className="flex items-start"><CheckCircle className="h-5 w-5 text-primary mr-3 mt-1 shrink-0" /><span><span className="font-bold">सर्वात कमी प्रतीची फळे</span> रस किंवा सालीच्या पावडरसाठी जात होती.</span></li>
               </ul>
-              <p className="mt-4">They even stored fruit in cold storage for a month and sold it later at double the price. From every grade, they made more profit than the farmers who worked under the sun all year.</p>
+              <p className="mt-4">ते फळे एका महिन्यासाठी कोल्ड स्टोरेजमध्ये ठेवून नंतर दुप्पट भावाने विकायचे. प्रत्येक प्रतवारीतून, ते वर्षभर उन्हात काम करणाऱ्या शेतकऱ्यांपेक्षा जास्त नफा कमवत होते.</p>
             </div>
 
             <div className="flex justify-center">
@@ -132,28 +132,28 @@ export default function AboutPage() {
             </div>
 
             <div className="text-center">
-              <h3 className="font-bold text-xl mb-2">The Turning Point: Knowledge is Power</h3>
+              <h3 className="font-bold text-xl mb-2">निर्णायक क्षण: ज्ञान हीच शक्ती</h3>
               <p>
-                As we studied the orange market across India, one truth became clear: farmers were losing because we didn’t have access to grading, sorting, processing, or storage. The knowledge was hidden from us.
+                आम्ही संपूर्ण भारतातील संत्र्यांच्या बाजाराचा अभ्यास केला, तेव्हा एक सत्य स्पष्ट झाले: शेतकऱ्यांचे नुकसान होत होते कारण आमच्याकडे प्रतवारी, वर्गीकरण, प्रक्रिया किंवा साठवणुकीची सोय नव्हती. हे ज्ञान आमच्यापासून लपवून ठेवले होते.
               </p>
               <p className="mt-4">
-                But step by step, we learned. We learned how to grade. We learned how to sort. We learned how to wash and wax. We learned how the market <span className="font-bold italic">truly</span> works. And with this knowledge, we decided something powerful — <span className="font-bold">farmers must stand together.</span>
+                पण हळूहळू, आम्ही शिकलो. आम्ही प्रतवारी कशी करायची हे शिकलो. आम्ही वर्गीकरण कसे करायचे हे शिकलो. आम्ही धुलाई आणि वॅक्सिंग कसे करायचे हे शिकलो. बाजार <span className="font-bold italic">खरोखर</span> कसा चालतो हे आम्ही शिकलो. आणि या ज्ञानाने, आम्ही एक शक्तिशाली निर्णय घेतला - <span className="font-bold">शेतकऱ्यांनी एकत्र उभे राहिले पाहिजे.</span>
               </p>
             </div>
             
             <div className="text-center bg-primary/5 p-6 md:p-8 rounded-lg shadow-inner">
                 <Flame className="h-12 w-12 text-primary mx-auto mb-4"/>
-              <h3 className="font-bold text-2xl mb-2 text-primary">The Birth of a Movement</h3>
+              <h3 className="font-bold text-2xl mb-2 text-primary">एका चळवळीचा जन्म</h3>
               <p>
-                This realization led to the creation of <strong>RAUT FARMER PRODUCER COMPANY</strong>. A platform built by farmers, for farmers. A place where we process our own oranges, set fair prices, reduce wastage, and capture the profit that once disappeared into the pockets of middlemen. Today, many farmers who join us earn better, feel empowered, and finally receive the respect their hard work deserves.
+                या जाणिवेतून <strong>राऊत शेतकरी उत्पादक कंपनी</strong>ची निर्मिती झाली. शेतकऱ्यांनी, शेतकऱ्यांसाठी तयार केलेले एक व्यासपीठ. एक असे ठिकाण जिथे आम्ही आमच्या संत्र्यांवर प्रक्रिया करतो, योग्य दर ठरवतो, अपव्यय कमी करतो आणि तो नफा मिळवतो जो एकेकाळी मध्यस्थांच्या खिशात नाहीसा होत होता. आज, आमच्याशी जोडले जाणारे अनेक शेतकरी चांगले कमावतात, सक्षम झाल्याचे अनुभवतात आणि अखेरीस त्यांच्या कष्टाला योग्य तो आदर मिळवतात.
               </p>
               <p className="mt-6 italic font-headline text-xl md:text-2xl">
-                "We are not just an orange company. We are a movement — a journey of learning, unity, and reclaiming our value."
+                "आम्ही फक्त एक संत्रा कंपनी नाही. आम्ही एक चळवळ आहोत - शिकण्याचा, एकजुटीचा आणि आमचे मूल्य परत मिळवण्याचा प्रवास."
               </p>
             </div>
 
             <div className="text-center">
-                <p>This is who we are, how we started, and why we are here: to transform the lives of farmers, to bring transparency to the market, and to build a future where the hands that grow food finally prosper.</p>
+                <p>हे आम्ही कोण आहोत, आम्ही कसे सुरू झालो आणि आम्ही येथे का आहोत: शेतकऱ्यांचे जीवन बदलण्यासाठी, बाजारात पारदर्शकता आणण्यासाठी आणि असे भविष्य घडवण्यासाठी जिथे अन्न पिकवणारे हात अखेरीस समृद्ध होतील.</p>
             </div>
           </div>
         </section>
@@ -161,10 +161,10 @@ export default function AboutPage() {
         <section className="mb-20">
             <Card className="bg-primary/5">
                 <CardHeader>
-                    <CardTitle className="text-2xl text-primary">Our Core Values</CardTitle>
+                    <CardTitle className="text-2xl text-primary">आमची मुख्य मूल्ये</CardTitle>
                 </CardHeader>
                 <CardContent>
-                    <p>At RAUT FARMER PRODUCER COMPANY, our core values guide everything we do. We focus on excellence, unity, and innovation to maintain high quality in all our operations. Transparency and integrity help us build trust with our stakeholders, while our commitment to community welfare, environmental care, and fair practices drives our work. With a passion for citrus excellence, we ensure every orange reflects our dedication to sustainability and quality.</p>
+                    <p>राऊत शेतकरी उत्पादक कंपनीमध्ये, आमची मुख्य मूल्ये आमच्या प्रत्येक कामाला मार्गदर्शन करतात. आम्ही आमच्या सर्व कार्यांमध्ये उच्च गुणवत्ता राखण्यासाठी उत्कृष्टता, एकता आणि नावीन्य यावर लक्ष केंद्रित करतो. पारदर्शकता आणि सचोटी आम्हाला आमच्या भागधारकांसोबत विश्वास निर्माण करण्यास मदत करते, तर समुदाय कल्याण, पर्यावरण काळजी आणि योग्य पद्धतींबद्दलची आमची वचनबद्धता आमच्या कामाला चालना देते. लिंबूवर्गीय फळांच्या उत्कृष्टतेच्या आवडीने, आम्ही प्रत्येक संत्रा आमचे शाश्वतता आणि गुणवत्तेवरील समर्पण दर्शवेल याची खात्री करतो.</p>
                 </CardContent>
             </Card>
         </section>
@@ -172,7 +172,7 @@ export default function AboutPage() {
         {/* CTA */}
         <section className="text-center mb-20">
             <Button asChild size="lg" className="mt-8">
-                <Link href="/contact">LEARN MORE</Link>
+                <Link href="/contact">अधिक जाणून घ्या</Link>
             </Button>
         </section>
 
@@ -180,5 +180,3 @@ export default function AboutPage() {
     </div>
   );
 }
-
-    

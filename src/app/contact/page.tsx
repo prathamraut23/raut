@@ -23,9 +23,9 @@ export default function ContactPage() {
         >
           <div className="absolute inset-0 bg-black/50" />
           <div className="relative z-10 container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-              <h1 className="text-4xl tracking-tighter md:text-6xl font-bold">Get In Touch</h1>
+              <h1 className="text-4xl tracking-tighter md:text-6xl font-bold">संपर्क साधा</h1>
               <p className="mt-4 max-w-3xl mx-auto text-lg font-body text-white/90">
-                  We're here to answer your questions and explore opportunities. Let's connect.
+                  आम्ही तुमच्या प्रश्नांची उत्तरे देण्यासाठी आणि संधी शोधण्यासाठी येथे आहोत. चला कनेक्ट होऊया.
               </p>
           </div>
       </section>
@@ -34,8 +34,8 @@ export default function ContactPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <div className="space-y-8">
             <div>
-              <h2 className="text-3xl font-bold text-primary">Contact Information</h2>
-              <p className="mt-2 text-foreground/70 font-body">Fill out the form, or reach out to us using the details below.</p>
+              <h2 className="text-3xl font-bold text-primary">संपर्क माहिती</h2>
+              <p className="mt-2 text-foreground/70 font-body">फॉर्म भरा, किंवा खाली दिलेल्या तपशिलांचा वापर करून आमच्याशी संपर्क साधा.</p>
             </div>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
@@ -43,7 +43,7 @@ export default function ContactPage() {
                   <Phone className="h-6 w-6" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-headline">Phone</h3>
+                  <h3 className="text-xl font-headline">फोन</h3>
                   <p className="text-foreground/70 font-body">+91 9586351548</p>
                 </div>
               </div>
@@ -52,7 +52,7 @@ export default function ContactPage() {
                   <Mail className="h-6 w-6" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-headline">Email</h3>
+                  <h3 className="text-xl font-headline">ईमेल</h3>
                   <p className="text-foreground/70 font-body">rautwanojafpc@gmail.com</p>
                 </div>
               </div>
@@ -61,13 +61,13 @@ export default function ContactPage() {
                   <MapPin className="h-6 w-6" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-headline">Address</h3>
-                  <p className="text-foreground/70 font-body">Wanoja Tq - Mangrulpir <br/> Dist - Washim <br/> State - Maharashtra</p>
+                  <h3 className="text-xl font-headline">पत्ता</h3>
+                  <p className="text-foreground/70 font-body">वांजा ता - मानग्रुळपीर <br/> जिल्हा - वाशिम <br/> राज्य - महाराष्ट्र</p>
                 </div>
               </div>
             </div>
              <div className="relative h-80 w-full rounded-lg shadow-lg overflow-hidden mt-8">
-                <Link href={mapLocationUrl} target="_blank" rel="noopener noreferrer" aria-label="View location on Google Maps">
+                <Link href={mapLocationUrl} target="_blank" rel="noopener noreferrer" aria-label="Google Maps वर स्थान पहा">
                     <Image
                     src={mapImageUrl}
                     alt="Map showing the location of Raut Farmer Producer Company"

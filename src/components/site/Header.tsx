@@ -11,11 +11,11 @@ import { cn } from '@/lib/utils';
 import { Logo } from './Logo';
 
 const navLinks = [
-  { href: '/', label: 'Home' },
-  { href: '/about', label: 'About' },
-  { href: '/services', label: 'Services' },
-  { href: '/projects', label: 'Projects' },
-  { href: '/contact', label: 'Contact' },
+  { href: '/', label: 'मुख्यपृष्ठ' },
+  { href: '/about', label: 'आमच्याबद्दल' },
+  { href: '/services', label: 'सेवा' },
+  { href: '/projects', label: 'प्रकल्प' },
+  { href: '/contact', label: 'संपर्क' },
 ];
 
 const NavLink = ({ href, children }: { href: string; children: React.ReactNode }) => {
@@ -60,7 +60,7 @@ export default function Header() {
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon">
                 <Menu className="h-6 w-6" />
-                <span className="sr-only">Open menu</span>
+                <span className="sr-only">मेनू उघडा</span>
               </Button>
             </SheetTrigger>
             <SheetContent side="left" className="w-full max-w-xs bg-background">
@@ -69,7 +69,7 @@ export default function Header() {
                   <Logo />
                   <Button variant="ghost" size="icon" onClick={() => setIsMobileMenuOpen(false)}>
                     <X className="h-6 w-6 text-primary" />
-                    <span className="sr-only">Close menu</span>
+                    <span className="sr-only">मेनू बंद करा</span>
                   </Button>
                 </div>
                 <nav className="mt-6 flex flex-col space-y-4">

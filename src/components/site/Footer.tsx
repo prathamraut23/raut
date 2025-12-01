@@ -3,11 +3,11 @@ import Link from 'next/link';
 import { Logo } from './Logo';
 
 const footerNavs = [
-  { href: '/', name: 'Home' },
-  { href: '/about', name: 'About Us' },
-  { href: '/services', name: 'Services' },
-  { href: '/projects', name: 'Projects' },
-  { href: '/contact', name: 'Contact' },
+  { href: '/', name: 'मुख्यपृष्ठ' },
+  { href: '/about', name: 'आमच्याबद्दल' },
+  { href: '/services', name: 'सेवा' },
+  { href: '/projects', name: 'प्रकल्प' },
+  { href: '/contact', name: 'संपर्क' },
 ];
 
 const socialLinks = [
@@ -25,12 +25,12 @@ export default function Footer() {
           <div className="space-y-4">
             <Logo />
             <p className="max-w-xs text-sm text-foreground/70">
-              Cultivating excellence from our farms to your family, ensuring quality and sustainability.
+              आमच्या शेतातून तुमच्या कुटुंबापर्यंत उत्कृष्टता वाढवणे, गुणवत्ता आणि टिकाऊपणा सुनिश्चित करणे.
             </p>
           </div>
           
           <div className="md:mx-auto">
-            <h3 className="text-lg font-headline tracking-wider text-foreground">Quick Links</h3>
+            <h3 className="text-lg font-headline tracking-wider text-foreground">जलद दुवे</h3>
             <ul className="mt-4 space-y-2">
               {footerNavs.map((item) => (
                 <li key={item.name}>
@@ -43,16 +43,16 @@ export default function Footer() {
           </div>
 
           <div className="md:mx-auto">
-             <h3 className="text-lg font-headline tracking-wider text-foreground">Connect With Us</h3>
+             <h3 className="text-lg font-headline tracking-wider text-foreground">आमच्याशी संपर्क साधा</h3>
             <div className="mt-4 space-y-2 text-sm text-foreground/70">
-                <p>Email: rautwanojafpc@gmail.com</p>
-                <p>Phone: +91 9586351548</p>
-                <p>Address: Wanoja Tq - Mangrulpir Dist - Washim State - Maharashtra</p>
+                <p>ईमेल: rautwanojafpc@gmail.com</p>
+                <p>फोन: +91 9586351548</p>
+                <p>पत्ता: वांजा ता - मानग्रुळपीर जिल्हा - वाशिम राज्य - महाराष्ट्र</p>
             </div>
             <div className="mt-4 flex space-x-4">
               {socialLinks.map((link, index) => (
                 <a key={index} href={link.href} className="text-foreground/70 hover:text-primary">
-                  <span className="sr-only">Social media link</span>
+                  <span className="sr-only">सोशल मीडिया लिंक</span>
                   {link.icon}
                 </a>
               ))}
@@ -60,7 +60,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t py-6 text-center text-sm text-foreground/60">
-          <p>&copy; {new Date().getFullYear()} Raut Farmer Producer Company. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} राऊत शेतकरी उत्पादक कंपनी. सर्व हक्क राखीव.</p>
         </div>
       </div>
     </footer>

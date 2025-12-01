@@ -2,139 +2,139 @@
   "placeholderImages": [
     {
       "id": "hero-home",
-      "description": "A vibrant orange grove under a sunny sky, representing the core of the business.",
+      "description": "सूर्यप्रकाशाखाली एक तेजस्वी संत्रा बाग, व्यवसायाचे केंद्र दर्शवते.",
       "imageUrl": "https://images.unsplash.com/photo-1451885140977-ed62a6b8744e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvcmFuZ2UlMjBncm92ZXxlbnwwfHx8fDE3NjQxNDIxOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "orange grove"
     },
     {
       "id": "about-teaser",
-      "description": "Oranges on a tree branch.",
+      "description": "झाडाच्या फांदीवर संत्री.",
       "imageUrl": "https://storage.googleapis.com/stabl-media/assets/images/oranges.png",
       "imageHint": "oranges tree"
     },
     {
       "id": "service-farming",
-      "description": "Close-up of a hand holding a ripe orange on a tree.",
+      "description": "एका झाडावर पिकलेल्या संत्र्याला धरून ठेवलेल्या हाताचे जवळून दृश्य.",
       "imageUrl": "https://www.koppert.in/content/_processed_/0/f/csm_shutterstock_129827255_521df0bd1b.jpg",
       "imageHint": "orange harvest"
     },
     {
       "id": "service-sorting",
-      "description": "Orange sorting machine in action.",
+      "description": "संत्रा वर्गीकरण यंत्र कार्यरत आहे.",
       "imageUrl": "https://futura-centralasia.com/en/uploads/sections/969/original.jpg",
       "imageHint": "orange sorting machine"
     },
     {
       "id": "service-ecosystem",
-      "description": "A beautiful orange plantation, showcasing a complete agricultural ecosystem.",
+      "description": "एक सुंदर संत्रा बाग, एक संपूर्ण कृषी परिसंस्था दर्शवते.",
       "imageUrl": "https://media.licdn.com/dms/image/v2/D5612AQEPNonhoAOhDg/article-cover_image-shrink_720_1280/B56ZURKYmtHQAI-/0/1739749698460?e=2147483647&v=beta&t=b3Q2B7_W7TevCosD5cSoIseZfTMsuQawFx6-s76hPwE",
       "imageHint": "orange plantation"
     },
     {
       "id": "about-hero",
-      "description": "A wide shot of the company's farmland or facilities.",
+      "description": "कंपनीच्या शेतजमिनी किंवा सुविधांचा विस्तृत शॉट.",
       "imageUrl": "https://images.unsplash.com/photo-1703850827351-a1be4d85a095?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmYXJtbGFuZCUyMGFlcmlhbHxlbnwwfHx8fDE3NjQxNDIxOTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "farmland aerial"
     },
     {
       "id": "team-member-1",
-      "description": "Portrait of a senior team member.",
+      "description": "एका वरिष्ठ संघ सदस्याचे पोर्ट्रेट.",
       "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQxMDg1NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "professional portrait"
     },
     {
       "id": "team-member-2",
-      "description": "Portrait of a female team member.",
+      "description": "एका महिला संघ सदस्याचे पोर्ट्रेट.",
       "imageUrl": "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21hbiUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3NjQwMzA0NDB8MA&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "woman professional"
     },
     {
       "id": "team-member-3",
-      "description": "Portrait of a young team member in the field.",
+      "description": "शेतातील एका तरुण संघ सदस्याचे पोर्ट्रेट.",
       "imageUrl": "https://images.unsplash.com/photo-1666452165223-a369d541ff0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYXJtZXIlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQwNTM2NTd8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "farmer portrait"
     },
     {
       "id": "service-detail-farming",
-      "description": "A group of happy farmers.",
+      "description": "आनंदी शेतकऱ्यांचा एक गट.",
       "imageUrl": "https://staticimg.amarujala.com/assets/images/2021/08/09/farmers-kisan-samman-nidhi_1628489700.jpeg",
       "imageHint": "happy farmers"
     },
     {
       "id": "service-detail-sorting",
-      "description": "A farmer using a tablet in a field with orange trees.",
+      "description": "संत्र्याच्या झाडांच्या शेतात टॅब्लेट वापरणारा एक शेतकरी.",
       "imageUrl": "https://hokolubazaragritech.in/wp-content/uploads/2024/08/serviceimage1.png",
       "imageHint": "farmer technology"
     },
     {
       "id": "service-detail-support",
-      "description": "Smart agriculture in citrus orchard with advanced technology for efficient farming and fruit growth",
+      "description": "कार्यक्षम शेती आणि फळ वाढीसाठी प्रगत तंत्रज्ञानासह लिंबूवर्गीय बागेत स्मार्ट शेती.",
       "imageUrl": "https://media.licdn.com/dms/image/v2/D5612AQEPNonhoAOhDg/article-cover_image-shrink_720_1280/B56ZURKYmtHQAI-/0/1739749698460?e=2147483647&v=beta&t=b3Q2B7_W7TevCosD5cSoIseZfTMsuQawFx6-s76hPwE",
       "imageHint": "smart agriculture"
     },
     {
       "id": "project-1",
-      "description": "Drip irrigation system in an orange grove.",
+      "description": "संत्र्याच्या बागेत ठिबक सिंचन प्रणाली.",
       "imageUrl": "https://regaber.com/wp-content/uploads/2022/03/Riego-de-citricos_regaber-1030x687.jpg",
       "imageHint": "farm irrigation"
     },
     {
       "id": "project-2",
-      "description": "Solar panels providing power to farm facilities.",
+      "description": "शेतीच्या सुविधांना वीज पुरवणारे सौर पॅनेल.",
       "imageUrl": "https://static.wixstatic.com/media/b7b329_320baef6c6a341cd956cf5fd534b41d4~mv2.jpeg/v1/fill/w_568,h_320,al_c,lg_1,q_80,enc_avif,quality_auto/b7b329_320baef6c6a341cd956cf5fd534b41d4~mv2.jpeg",
       "imageHint": "solar farm"
     },
     {
       "id": "project-3",
-      "description": "Community training session for local farmers.",
+      "description": "स्थानिक शेतकऱ्यांसाठी सामुदायिक प्रशिक्षण सत्र.",
       "imageUrl": "https://iffco-public-assets.s3.ap-south-1.amazonaws.com/s3fs-public/2020-04/Farmer%20Extension%20Activities.jpg",
       "imageHint": "community meeting"
     },
     {
       "id": "project-4",
-      "description": "A crop sprayer in an orchard.",
+      "description": "बागेत एक पीक फवारणी यंत्र.",
       "imageUrl": "https://croplands.com/nz/wp-content/uploads/sites/2/2021/04/Croplands_Cropliner-Fibreglass-Slimline_1_618x435px.png",
       "imageHint": "crop sprayer"
     },
     {
       "id": "project-5",
-      "description": "Eco-friendly packaging for produce.",
+      "description": "उत्पादनासाठी पर्यावरणास अनुकूल पॅकेजिंग.",
       "imageUrl": "https://www.greengiving.be/storage/Producten/Eetbaar/sinaasappel-met-sticker-als-relatiegeschenk-62000243.jpg",
       "imageHint": "orange packaging"
     },
     {
       "id": "project-6",
-      "description": "Composting site for organic waste recycling.",
+      "description": "सेंद्रिय कचरा पुनर्वापरासाठी कंपोस्टिंग साइट.",
       "imageUrl": "https://stcroperproduction.blob.core.windows.net/uploads-public/images/z3xjhzjmsbvuyarp45qsb/lg.webp",
       "imageHint": "compost pile"
     },
     {
       "id": "contact-hero",
-      "description": "A friendly person on the phone at a rustic desk.",
-      "imageUrl": "https://images.unsplash.com/photo-1560264418-c4445382edbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y3VzdG9tZXIlMjBzZXJ2aWNlfGVufDB8fHx8MTc2NDA1MzQ0OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "एका आरामदायक डेस्कवर फोनवर एक मैत्रीपूर्ण व्यक्ती.",
+      "imageUrl": "https://images.unsplash.com/photo-1560264418-c4445382edbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y3VzdG9tZXIlMjBzZXJ2aWNlfGVufDB8fHx8MTc2NDA1MzQ0OXww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "customer service"
     },
     {
       "id": "oranges-bg",
-      "description": "A pile of oranges in a burlap sack.",
+      "description": "गोणपाटाच्या पोत्यात संत्र्यांचा ढीग.",
       "imageUrl": "https://storage.googleapis.com/stabl-media/assets/images/oranges-bg.jpg",
       "imageHint": "oranges burlap"
     },
     {
       "id": "project-7",
-      "description": "A community-built water reservoir shimmering under the sun.",
+      "description": "सूर्याखाली चमकणारा एक समुदाय-निर्मित जलसाठा.",
       "imageUrl": "https://westernliner.com/wp-content/uploads/2024/06/irrigation-pond-1369812897.jpg",
       "imageHint": "water reservoir"
     },
     {
       "id": "project-8",
-      "description": "Rows of healthy saplings in a nursery, ready for planting.",
+      "description": "रोपवाटिकेत निरोगी रोपांच्या रांगा, लागवडीसाठी तयार.",
       "imageUrl": "https://m.media-amazon.com/images/I/81l2TDBC+tL.jpg",
       "imageHint": "sapling nursery"
     },
     {
       "id": "pulp-extraction",
-      "description": "Orange juice being poured into a glass.",
+      "description": "संत्र्याचा रस ग्लासात ओतत आहे.",
       "imageUrl": "https://elanthalir.com/wp-content/uploads/2023/04/Orange-juice-2-scaled.jpg",
       "imageHint": "orange juice"
     }
